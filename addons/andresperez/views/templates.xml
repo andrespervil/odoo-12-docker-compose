@@ -10,7 +10,7 @@
             <field name="telefono">664804679</field>
             <field name="telefono_alt">986329988</field>
         </record>
-        <record model="andresperez.cliente" id="cliente_1">
+        <record model="andresperez.cliente" id="cliente_2">
             <field name="nome">Federico</field>
             <field name="apelidos">Ruiz Sainz</field>
             <field name="dni">23947921E</field>
@@ -20,7 +20,8 @@
             <field name="telefono">602131843</field>
             <field name="telefono_alt">953456257</field>
         </record>
-                <record model="andresperez.cliente" id="cliente_1">
+                <record model="andresperez.cliente" id="cliente_3s
+">
             <field name="nome">Diego </field>
             <field name="apelidos">Cardenas Medina</field>
             <field name="dni">23775708X</field>

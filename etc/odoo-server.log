@@ -30885,3 +30885,1849 @@ KeyError: 'andresperez.cliente'
 2020-03-27 15:03:25,403 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/odoo/addons 
 2020-03-27 15:03:25,536 1 INFO ? odoo.service.server: AutoReload watcher running with watchdog 
 2020-03-27 15:03:25,539 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 2cd53e1198ba:8069 
+2020-03-27 15:13:03,321 1 INFO ? odoo.service.server: Initiating shutdown 
+2020-03-27 15:13:03,321 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2020-03-27 15:13:05,914 1 INFO ? odoo: Odoo version 12.0-20200121 
+2020-03-27 15:13:05,915 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2020-03-27 15:13:05,915 1 INFO ? odoo: addons paths: ['/var/lib/odoo/addons/12.0', '/mnt/extra-addons', '/usr/lib/python3/dist-packages/odoo/addons'] 
+2020-03-27 15:13:05,915 1 INFO ? odoo: database: odoo@db:5432 
+2020-03-27 15:13:06,001 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2020-03-27 15:13:06,088 1 INFO ? odoo.service.server: Watching addons folder /var/lib/odoo/addons/12.0 
+2020-03-27 15:13:06,088 1 INFO ? odoo.service.server: Watching addons folder /mnt/extra-addons 
+2020-03-27 15:13:06,088 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/odoo/addons 
+2020-03-27 15:13:06,221 1 INFO ? odoo.service.server: AutoReload watcher running with watchdog 
+2020-03-27 15:13:06,224 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 2cd53e1198ba:8069 
+2020-03-27 15:13:08,361 1 INFO ? odoo.http: HTTP Configuring static files 
+2020-03-27 15:13:08,378 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 15:13:08,393 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2020-03-27 15:13:08,400 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 15:13:08,447 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.05s, 0 queries 
+2020-03-27 15:13:08,576 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 15:13:08,579 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 15:13:09,014 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /web HTTP/1.1" 200 - 332 0.106 0.545
+2020-03-27 15:13:09,061 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /web/content/255-97e9e59/web.assets_backend.0.css HTTP/1.1" 304 - 4 0.006 0.020
+2020-03-27 15:13:09,061 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /web/content/249-c2af7d4/web_editor.summernote.0.css HTTP/1.1" 304 - 5 0.007 0.016
+2020-03-27 15:13:09,062 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /web/content/256-97e9e59/web.assets_backend.1.css HTTP/1.1" 304 - 5 0.007 0.018
+2020-03-27 15:13:09,062 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /web/content/250-e06fb74/web_editor.assets_editor.0.css HTTP/1.1" 304 - 4 0.003 0.019
+2020-03-27 15:13:09,063 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /web/content/246-8134354/web.assets_common.0.css HTTP/1.1" 304 - 7 0.006 0.023
+2020-03-27 15:13:09,079 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /web/content/251-8134354/web.assets_common.js HTTP/1.1" 304 - 4 0.007 0.031
+2020-03-27 15:13:09,090 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /web/content/253-c2af7d4/web_editor.summernote.js HTTP/1.1" 304 - 4 0.004 0.010
+2020-03-27 15:13:09,092 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /web/content/257-97e9e59/web.assets_backend.js HTTP/1.1" 304 - 4 0.004 0.024
+2020-03-27 15:13:09,093 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /web/content/254-e06fb74/web_editor.assets_editor.js HTTP/1.1" 304 - 4 0.004 0.014
+2020-03-27 15:13:09,238 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /web/webclient/qweb?mods=base,web,andresperez,base_import,web_settings_dashboard,iap,web_diagram,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.032
+2020-03-27 15:13:09,283 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "POST /web/dataset/call HTTP/1.1" 200 - 13 0.006 0.010
+2020-03-27 15:13:09,303 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "POST /web/webclient/translations HTTP/1.1" 200 - 6 0.004 0.005
+2020-03-27 15:13:09,405 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "POST /web/dataset/call_kw/ir.ui.menu/load_menus HTTP/1.1" 200 - 56 0.025 0.056
+2020-03-27 15:13:09,439 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,470 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /web/image?model=res.users&field=image_small&id=2 HTTP/1.1" 304 - 27 0.015 0.014
+2020-03-27 15:13:09,501 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "POST /web/action/load HTTP/1.1" 200 - 49 0.030 0.023
+2020-03-27 15:13:09,606 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 97 0.036 0.055
+2020-03-27 15:13:09,691 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.004 0.005
+2020-03-27 15:13:09,719 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /crm/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,722 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /website/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,726 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /project/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,728 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,731 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /stock/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,733 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,736 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /account/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,738 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,741 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /mrp/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,744 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,747 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,750 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,753 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /sale_management/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,756 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,758 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,760 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /note/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,766 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /website_sale/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,769 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /purchase/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,770 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,773 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /hr/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,774 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,777 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,780 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /hr_expense/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,782 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /board/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,783 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /contacts/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,785 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,787 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,790 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /mail/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,792 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /base/static/img/icons/project_forecast.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,795 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,797 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,800 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /base/static/img/icons/sign.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,808 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /base/static/img/icons/voip.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,808 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /base/static/img/icons/website_calendar.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,810 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /website_livechat/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,811 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /survey/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,812 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,812 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,814 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /lunch/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,818 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /maintenance/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,819 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /calendar/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,821 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /website_blog/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,823 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,824 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /website_slides/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,826 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /website_forum/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,828 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /fleet/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,830 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /website_event/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,833 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /im_livechat/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,835 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /repair/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:09,837 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:09] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:13,481 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:13] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.004 0.009
+2020-03-27 15:13:13,496 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:13] "GET /base/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:13,568 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:13] "GET /hr_timesheet/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:13,569 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:13] "GET /hr_payroll/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:13,573 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:13] "GET /website_crm/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:13,591 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:13] "GET /account_check_printing/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:13,600 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:13] "GET /andresperez/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:13:15,955 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:15] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.005 0.005
+2020-03-27 15:13:18,126 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 15:13:18,127 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 15:13:18,127 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 15:13:18,659 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 15:13:18,670 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 15:13:18,681 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2020-03-27 15:13:18,778 1 INFO andresperez odoo.modules.loading: updating modules list 
+2020-03-27 15:13:18,780 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.18.0.1 
+2020-03-27 15:13:19,280 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 15:13:19,340 1 INFO andresperez odoo.modules.registry: module andresperez: creating or updating database tables 
+2020-03-27 15:13:19,515 1 INFO andresperez odoo.modules.loading: loading andresperez/security/ir.model.access.csv 
+2020-03-27 15:13:19,530 1 INFO andresperez odoo.modules.loading: loading andresperez/views/cliente.xml 
+2020-03-27 15:13:19,533 1 WARNING andresperez odoo.models: ir.actions.act_window.create() with unknown fields: view_model 
+2020-03-27 15:13:19,558 1 INFO andresperez odoo.modules.loading: loading andresperez/views/alquiler.xml 
+2020-03-27 15:13:19,561 1 WARNING andresperez odoo.models: ir.actions.act_window.create() with unknown fields: view_model 
+2020-03-27 15:13:19,593 1 INFO andresperez odoo.modules.loading: loading andresperez/views/menu.xml 
+2020-03-27 15:13:19,613 1 WARNING andresperez odoo.modules.loading: Transient module states were reset 
+2020-03-27 15:13:19,617 1 ERROR andresperez odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/cache.py", line 88, in lookup
+    r = d[key]
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 69, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/tools/lru.py", line 44, in __getitem__
+    a = self.d[obj].me
+KeyError: ('ir.model.data', <function IrModelData.xmlid_lookup at 0x7f8834b6a2f0>, 'andresperez.reserva_list_action')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 758, in parse
+    self._tags[rec.tag](rec, de, mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 472, in _tag_menuitem
+    action_model, action_id = self.model_id_get(a_action)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 747, in model_id_get
+    return self.env['ir.model.data'].xmlid_to_res_model_res_id(id_str, raise_if_not_found=raise_if_not_found)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_model.py", line 1413, in xmlid_to_res_model_res_id
+    return self.xmlid_lookup(xmlid)[1:3]
+  File "<decorator-gen-25>", line 2, in xmlid_lookup
+  File "/usr/lib/python3/dist-packages/odoo/tools/cache.py", line 93, in lookup
+    value = d[key] = self.method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_model.py", line 1402, in xmlid_lookup
+    raise ValueError('External ID not found in the system: %s' % xmlid)
+ValueError: External ID not found in the system: andresperez.reserva_list_action
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 86, in new
+    odoo.modules.load_modules(registry._db, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 417, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 313, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 222, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package, report=report)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 68, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind, report)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 802, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate, report)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 865, in convert_xml_import
+    obj.parse(doc.getroot(), mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 755, in parse
+    self.parse(rec, mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 764, in parse
+    exc_info[2]
+  File "/usr/lib/python3/dist-packages/odoo/tools/pycompat.py", line 86, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 758, in parse
+    self._tags[rec.tag](rec, de, mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 472, in _tag_menuitem
+    action_model, action_id = self.model_id_get(a_action)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 747, in model_id_get
+    return self.env['ir.model.data'].xmlid_to_res_model_res_id(id_str, raise_if_not_found=raise_if_not_found)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_model.py", line 1413, in xmlid_to_res_model_res_id
+    return self.xmlid_lookup(xmlid)[1:3]
+  File "<decorator-gen-25>", line 2, in xmlid_lookup
+  File "/usr/lib/python3/dist-packages/odoo/tools/cache.py", line 93, in lookup
+    value = d[key] = self.method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_model.py", line 1402, in xmlid_lookup
+    raise ValueError('External ID not found in the system: %s' % xmlid)
+odoo.tools.convert.ParseError: "External ID not found in the system: andresperez.reserva_list_action" while parsing /mnt/extra-addons/andresperez/views/menu.xml:6, near
+<menuitem id="reserva_menu" name="Reservas" parent="main_andresperez" action="reserva_list_action"/>
+2020-03-27 15:13:19,620 1 ERROR andresperez odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/cache.py", line 88, in lookup
+    r = d[key]
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 69, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/tools/lru.py", line 44, in __getitem__
+    a = self.d[obj].me
+KeyError: ('ir.model.data', <function IrModelData.xmlid_lookup at 0x7f8834b6a2f0>, 'andresperez.reserva_list_action')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 758, in parse
+    self._tags[rec.tag](rec, de, mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 472, in _tag_menuitem
+    action_model, action_id = self.model_id_get(a_action)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 747, in model_id_get
+    return self.env['ir.model.data'].xmlid_to_res_model_res_id(id_str, raise_if_not_found=raise_if_not_found)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_model.py", line 1413, in xmlid_to_res_model_res_id
+    return self.xmlid_lookup(xmlid)[1:3]
+  File "<decorator-gen-25>", line 2, in xmlid_lookup
+  File "/usr/lib/python3/dist-packages/odoo/tools/cache.py", line 93, in lookup
+    value = d[key] = self.method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_model.py", line 1402, in xmlid_lookup
+    raise ValueError('External ID not found in the system: %s' % xmlid)
+ValueError: External ID not found in the system: andresperez.reserva_list_action
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 656, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 314, in _handle_exception
+    raise pycompat.reraise(type(exception), exception, sys.exc_info()[2])
+  File "/usr/lib/python3/dist-packages/odoo/tools/pycompat.py", line 87, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 698, in dispatch
+    result = self._call_function(**self.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 346, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 97, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 339, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 941, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 519, in response_wrap
+    response = f(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 966, in call_button
+    action = self._call_kw(model, method, args, {})
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 954, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 759, in call_kw
+    return _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 746, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-67>", line 2, in button_immediate_upgrade
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 622, in button_immediate_upgrade
+    return self._button_immediate_function(type(self).button_upgrade)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 561, in _button_immediate_function
+    modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 86, in new
+    odoo.modules.load_modules(registry._db, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 417, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 313, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 222, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package, report=report)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 68, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind, report)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 802, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate, report)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 865, in convert_xml_import
+    obj.parse(doc.getroot(), mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 755, in parse
+    self.parse(rec, mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 764, in parse
+    exc_info[2]
+  File "/usr/lib/python3/dist-packages/odoo/tools/pycompat.py", line 86, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 758, in parse
+    self._tags[rec.tag](rec, de, mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 472, in _tag_menuitem
+    action_model, action_id = self.model_id_get(a_action)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 747, in model_id_get
+    return self.env['ir.model.data'].xmlid_to_res_model_res_id(id_str, raise_if_not_found=raise_if_not_found)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_model.py", line 1413, in xmlid_to_res_model_res_id
+    return self.xmlid_lookup(xmlid)[1:3]
+  File "<decorator-gen-25>", line 2, in xmlid_lookup
+  File "/usr/lib/python3/dist-packages/odoo/tools/cache.py", line 93, in lookup
+    value = d[key] = self.method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_model.py", line 1402, in xmlid_lookup
+    raise ValueError('External ID not found in the system: %s' % xmlid)
+odoo.tools.convert.ParseError: "External ID not found in the system: andresperez.reserva_list_action" while parsing /mnt/extra-addons/andresperez/views/menu.xml:6, near
+<menuitem id="reserva_menu" name="Reservas" parent="main_andresperez" action="reserva_list_action"/>
+2020-03-27 15:13:19,628 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 15:13:19,647 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries 
+2020-03-27 15:13:19,654 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 15:13:19,670 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.02s, 0 queries 
+2020-03-27 15:13:19,702 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 15:13:19,704 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:13:19] "POST /web/dataset/call_button HTTP/1.1" 200 - 1398 0.452 1.136
+2020-03-27 15:14:02,272 1 INFO ? odoo.service.server: autoreload: python code updated, autoreload activated 
+2020-03-27 15:14:02,272 1 INFO ? odoo.service.server: Initiating server reload 
+2020-03-27 15:14:05,481 1 INFO ? odoo: Odoo version 12.0-20200121 
+2020-03-27 15:14:05,481 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2020-03-27 15:14:05,481 1 INFO ? odoo: addons paths: ['/var/lib/odoo/addons/12.0', '/mnt/extra-addons', '/usr/lib/python3/dist-packages/odoo/addons'] 
+2020-03-27 15:14:05,481 1 INFO ? odoo: database: odoo@db:5432 
+2020-03-27 15:14:05,565 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2020-03-27 15:14:05,656 1 INFO ? odoo.service.server: Watching addons folder /var/lib/odoo/addons/12.0 
+2020-03-27 15:14:05,656 1 INFO ? odoo.service.server: Watching addons folder /mnt/extra-addons 
+2020-03-27 15:14:05,656 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/odoo/addons 
+2020-03-27 15:14:05,790 1 INFO ? odoo.service.server: AutoReload watcher running with watchdog 
+2020-03-27 15:14:05,792 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 2cd53e1198ba:8069 
+2020-03-27 15:14:06,408 1 INFO ? odoo.http: HTTP Configuring static files 
+2020-03-27 15:14:06,421 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 15:14:06,432 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2020-03-27 15:14:06,437 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 15:14:06,479 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.04s, 0 queries 
+2020-03-27 15:14:06,603 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 15:14:06,605 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 15:14:07,031 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /web HTTP/1.1" 200 - 332 0.110 0.511
+2020-03-27 15:14:07,072 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /web/content/246-8134354/web.assets_common.0.css HTTP/1.1" 304 - 7 0.004 0.017
+2020-03-27 15:14:07,076 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /web/content/251-8134354/web.assets_common.js HTTP/1.1" 304 - 4 0.002 0.022
+2020-03-27 15:14:07,083 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /web/content/256-97e9e59/web.assets_backend.1.css HTTP/1.1" 304 - 4 0.005 0.019
+2020-03-27 15:14:07,094 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /web/content/257-97e9e59/web.assets_backend.js HTTP/1.1" 304 - 4 0.005 0.034
+2020-03-27 15:14:07,095 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /web/content/255-97e9e59/web.assets_backend.0.css HTTP/1.1" 304 - 4 0.011 0.031
+2020-03-27 15:14:07,096 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /web/content/253-c2af7d4/web_editor.summernote.js HTTP/1.1" 304 - 4 0.006 0.033
+2020-03-27 15:14:07,100 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /web/content/254-e06fb74/web_editor.assets_editor.js HTTP/1.1" 304 - 4 0.003 0.020
+2020-03-27 15:14:07,105 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /web/content/249-c2af7d4/web_editor.summernote.0.css HTTP/1.1" 304 - 4 0.004 0.018
+2020-03-27 15:14:07,106 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /web/content/250-e06fb74/web_editor.assets_editor.0.css HTTP/1.1" 304 - 4 0.003 0.012
+2020-03-27 15:14:07,255 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /web/webclient/qweb?mods=base,web,andresperez,base_import,web_settings_dashboard,iap,web_diagram,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.049
+2020-03-27 15:14:07,276 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "POST /web/dataset/call HTTP/1.1" 200 - 13 0.007 0.010
+2020-03-27 15:14:07,290 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "POST /web/webclient/translations HTTP/1.1" 200 - 6 0.004 0.003
+2020-03-27 15:14:07,293 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 - - - -
+2020-03-27 15:14:07,400 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "POST /web/dataset/call_kw/ir.ui.menu/load_menus HTTP/1.1" 200 - 56 0.024 0.067
+2020-03-27 15:14:07,429 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,455 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /web/image?model=res.users&field=image_small&id=2 HTTP/1.1" 304 - 27 0.013 0.012
+2020-03-27 15:14:07,494 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "POST /web/action/load HTTP/1.1" 200 - 49 0.030 0.028
+2020-03-27 15:14:07,615 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 97 0.043 0.063
+2020-03-27 15:14:07,701 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.004 0.007
+2020-03-27 15:14:07,735 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /crm/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,739 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /website/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,743 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /project/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,745 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,748 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /stock/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,750 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,753 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /account/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,755 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,758 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /mrp/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,760 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,764 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,767 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,770 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /sale_management/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,772 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,774 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,778 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /note/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,781 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /website_sale/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,782 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /purchase/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,784 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,786 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /hr/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,789 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,793 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,794 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /hr_expense/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,798 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /andresperez/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,798 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /board/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,800 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /contacts/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,802 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,804 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,805 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /mail/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,808 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /base/static/img/icons/project_forecast.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,811 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,814 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,816 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /base/static/img/icons/sign.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,818 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /base/static/img/icons/voip.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,820 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /base/static/img/icons/website_calendar.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,822 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /website_livechat/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,824 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /survey/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,827 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,828 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,831 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /lunch/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,832 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /maintenance/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,836 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /calendar/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,838 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /website_blog/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,839 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,841 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /website_slides/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,844 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /website_forum/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,847 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /fleet/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,852 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /website_event/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,852 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /im_livechat/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,853 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /repair/static/description/icon.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:07,856 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:07] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:10,206 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 15:14:10,207 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 15:14:10,207 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 15:14:10,738 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 15:14:10,750 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 15:14:10,761 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2020-03-27 15:14:10,860 1 INFO andresperez odoo.modules.loading: updating modules list 
+2020-03-27 15:14:10,862 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.18.0.1 
+2020-03-27 15:14:11,350 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 15:14:11,410 1 INFO andresperez odoo.modules.registry: module andresperez: creating or updating database tables 
+2020-03-27 15:14:11,588 1 INFO andresperez odoo.modules.loading: loading andresperez/security/ir.model.access.csv 
+2020-03-27 15:14:11,609 1 INFO andresperez odoo.modules.loading: loading andresperez/views/cliente.xml 
+2020-03-27 15:14:11,612 1 WARNING andresperez odoo.models: ir.actions.act_window.create() with unknown fields: view_model 
+2020-03-27 15:14:11,649 1 INFO andresperez odoo.modules.loading: loading andresperez/views/alquiler.xml 
+2020-03-27 15:14:11,652 1 WARNING andresperez odoo.models: ir.actions.act_window.create() with unknown fields: view_model 
+2020-03-27 15:14:11,686 1 INFO andresperez odoo.modules.loading: loading andresperez/views/reserva.xml 
+2020-03-27 15:14:11,689 1 WARNING andresperez odoo.models: ir.actions.act_window.create() with unknown fields: view_model 
+2020-03-27 15:14:11,718 1 INFO andresperez odoo.modules.loading: loading andresperez/views/menu.xml 
+2020-03-27 15:14:11,739 1 INFO andresperez odoo.modules.loading: loading andresperez/views/views.xml 
+2020-03-27 15:14:11,741 1 INFO andresperez odoo.modules.loading: loading andresperez/views/templates.xml 
+2020-03-27 15:14:11,802 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.45s, 0 queries 
+2020-03-27 15:14:11,878 1 INFO andresperez odoo.modules.registry: verifying fields for every extended model 
+2020-03-27 15:14:11,966 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 15:14:11,969 1 INFO andresperez odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2020-03-27 15:14:11,973 1 INFO andresperez odoo.modules.registry: Registry changed, signaling through the database 
+2020-03-27 15:14:11,974 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:11] "POST /web/dataset/call_button HTTP/1.1" 200 - 1799 0.580 1.196
+2020-03-27 15:14:11,984 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 15:14:12,467 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:12] "GET /web HTTP/1.1" 200 - 328 0.109 0.375
+2020-03-27 15:14:12,650 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:12] "GET /web/webclient/qweb?mods=base,web,andresperez,base_import,web_settings_dashboard,iap,web_diagram,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 304 - 1 0.000 0.039
+2020-03-27 15:14:12,689 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:12] "POST /web/dataset/call HTTP/1.1" 200 - 13 0.006 0.010
+2020-03-27 15:14:12,712 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:12] "POST /web/webclient/translations HTTP/1.1" 200 - 6 0.002 0.005
+2020-03-27 15:14:12,734 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:12] "POST /web/dataset/call_kw/ir.ui.menu/load_menus HTTP/1.1" 200 - 1 0.000 0.003
+2020-03-27 15:14:12,757 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:12] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 304 - - - -
+2020-03-27 15:14:12,773 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:12] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.000 0.004
+2020-03-27 15:14:12,789 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:12] "GET /web/image?model=res.users&field=image_small&id=2 HTTP/1.1" 304 - 27 0.016 0.013
+2020-03-27 15:14:12,812 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:12] "POST /web/action/load HTTP/1.1" 200 - 19 0.014 0.014
+2020-03-27 15:14:12,850 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:12] "POST /web/dataset/call_kw/andresperez.cliente/load_views HTTP/1.1" 200 - 31 0.011 0.018
+2020-03-27 15:14:12,905 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 15:14:12] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.003 0.003
+2020-03-27 15:38:20,726 1 INFO ? odoo.service.server: Initiating shutdown 
+2020-03-27 15:38:20,726 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2020-03-27 17:56:37,213 1 INFO ? odoo: Odoo version 12.0-20200121 
+2020-03-27 17:56:37,214 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2020-03-27 17:56:37,214 1 INFO ? odoo: addons paths: ['/var/lib/odoo/addons/12.0', '/mnt/extra-addons', '/usr/lib/python3/dist-packages/odoo/addons'] 
+2020-03-27 17:56:37,214 1 INFO ? odoo: database: odoo@db:5432 
+2020-03-27 17:56:37,322 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2020-03-27 17:56:37,453 1 INFO ? odoo.service.server: Watching addons folder /var/lib/odoo/addons/12.0 
+2020-03-27 17:56:37,453 1 INFO ? odoo.service.server: Watching addons folder /mnt/extra-addons 
+2020-03-27 17:56:37,454 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/odoo/addons 
+2020-03-27 17:56:37,961 1 INFO ? odoo.service.server: AutoReload watcher running with watchdog 
+2020-03-27 17:56:37,964 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 2cd53e1198ba:8069 
+2020-03-27 17:57:43,951 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 17:57:43,965 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2020-03-27 17:57:43,974 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 17:57:43,991 1 INFO ? odoo.http: HTTP Configuring static files 
+2020-03-27 17:57:44,033 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.06s, 0 queries 
+2020-03-27 17:57:44,171 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 17:57:44,180 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 17:57:44,181 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 17:57:44,186 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 17:57:44,492 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 17:57:44] "POST /web/webclient/translations HTTP/1.1" 200 - 6 0.009 0.537
+2020-03-27 17:57:44,504 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 17:57:44] "POST /web/dataset/call HTTP/1.1" 200 - 26 0.067 0.514
+2020-03-27 17:57:44,559 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 17:57:44] "GET /web/webclient/qweb?mods=base,web,andresperez,base_import,web_settings_dashboard,iap,web_diagram,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.001 0.561
+2020-03-27 17:57:44,658 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 17:57:44] "POST /web/dataset/call_kw/ir.ui.menu/load_menus HTTP/1.1" 200 - 100 0.053 0.073
+2020-03-27 17:57:44,733 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 17:57:44] "POST /web/action/load HTTP/1.1" 200 - 19 0.021 0.013
+2020-03-27 17:57:44,786 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 17:57:44] "POST /web/dataset/call_kw/andresperez.cliente/load_views HTTP/1.1" 200 - 32 0.019 0.018
+2020-03-27 17:57:44,849 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 17:57:44] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.002 0.003
+2020-03-27 18:00:04,544 1 INFO ? odoo.service.server: Initiating shutdown 
+2020-03-27 18:00:04,544 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2020-03-27 18:00:07,216 1 INFO ? odoo: Odoo version 12.0-20200121 
+2020-03-27 18:00:07,216 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2020-03-27 18:00:07,216 1 INFO ? odoo: addons paths: ['/var/lib/odoo/addons/12.0', '/mnt/extra-addons', '/usr/lib/python3/dist-packages/odoo/addons'] 
+2020-03-27 18:00:07,217 1 INFO ? odoo: database: odoo@db:5432 
+2020-03-27 18:00:07,304 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2020-03-27 18:00:07,402 1 INFO ? odoo.service.server: Watching addons folder /var/lib/odoo/addons/12.0 
+2020-03-27 18:00:07,403 1 INFO ? odoo.service.server: Watching addons folder /mnt/extra-addons 
+2020-03-27 18:00:07,403 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/odoo/addons 
+2020-03-27 18:00:07,537 1 INFO ? odoo.service.server: AutoReload watcher running with watchdog 
+2020-03-27 18:00:07,541 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 2cd53e1198ba:8069 
+2020-03-27 18:00:10,542 1 INFO ? odoo.http: HTTP Configuring static files 
+2020-03-27 18:00:10,555 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:00:10,575 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries 
+2020-03-27 18:00:10,582 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:00:10,632 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.05s, 0 queries 
+2020-03-27 18:00:10,772 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 18:00:10,775 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 18:00:10,946 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:10] "POST /web/action/load HTTP/1.1" 200 - 64 0.044 0.358
+2020-03-27 18:00:11,064 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:11] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 99 0.039 0.064
+2020-03-27 18:00:11,142 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:11] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.007 0.006
+2020-03-27 18:00:13,084 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:00:13,085 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:00:13,085 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:00:13,664 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:00:13,677 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:00:13,692 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2020-03-27 18:00:13,796 1 INFO andresperez odoo.modules.loading: updating modules list 
+2020-03-27 18:00:13,798 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.18.0.1 
+2020-03-27 18:00:14,282 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:00:14,335 1 INFO andresperez odoo.modules.registry: module andresperez: creating or updating database tables 
+2020-03-27 18:00:14,435 1 INFO andresperez odoo.modules.loading: loading andresperez/security/ir.model.access.csv 
+2020-03-27 18:00:14,455 1 INFO andresperez odoo.modules.loading: loading andresperez/views/cliente.xml 
+2020-03-27 18:00:14,458 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:00:14,490 1 INFO andresperez odoo.modules.loading: loading andresperez/views/alquiler.xml 
+2020-03-27 18:00:14,492 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:00:14,524 1 INFO andresperez odoo.modules.loading: loading andresperez/views/reserva.xml 
+2020-03-27 18:00:14,526 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:00:14,555 1 INFO andresperez odoo.modules.loading: loading andresperez/views/menu.xml 
+2020-03-27 18:00:14,573 1 INFO andresperez odoo.modules.loading: loading andresperez/views/views.xml 
+2020-03-27 18:00:14,574 1 INFO andresperez odoo.modules.loading: loading andresperez/views/templates.xml 
+2020-03-27 18:00:14,616 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.33s, 0 queries 
+2020-03-27 18:00:14,725 1 INFO andresperez odoo.modules.registry: verifying fields for every extended model 
+2020-03-27 18:00:14,845 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 18:00:14,852 1 INFO andresperez odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2020-03-27 18:00:14,856 1 INFO andresperez odoo.modules.registry: Registry changed, signaling through the database 
+2020-03-27 18:00:14,857 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:14] "POST /web/dataset/call_button HTTP/1.1" 200 - 1683 0.595 1.189
+2020-03-27 18:00:14,870 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 18:00:15,288 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:15] "GET /web HTTP/1.1" 200 - 328 0.094 0.326
+2020-03-27 18:00:15,465 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:15] "GET /web/webclient/qweb?mods=base,web,andresperez,base_import,web_settings_dashboard,iap,web_diagram,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.054
+2020-03-27 18:00:15,478 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:15] "POST /web/dataset/call HTTP/1.1" 200 - 13 0.003 0.014
+2020-03-27 18:00:15,488 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:15] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 - - - -
+2020-03-27 18:00:15,491 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:15] "POST /web/webclient/translations HTTP/1.1" 200 - 6 0.002 0.006
+2020-03-27 18:00:15,501 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:15] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 1 0.000 0.003
+2020-03-27 18:00:15,517 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:15] "POST /web/dataset/call_kw/ir.ui.menu/load_menus HTTP/1.1" 200 - 1 0.000 0.003
+2020-03-27 18:00:15,538 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:15] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 - - - -
+2020-03-27 18:00:15,549 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:15] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.005
+2020-03-27 18:00:15,573 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:15] "GET /web/image?model=res.users&field=image_small&id=2 HTTP/1.1" 304 - 27 0.017 0.016
+2020-03-27 18:00:15,584 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:15] "POST /web/action/load HTTP/1.1" 200 - 19 0.016 0.013
+2020-03-27 18:00:15,624 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:15] "POST /web/dataset/call_kw/andresperez.cliente/load_views HTTP/1.1" 200 - 31 0.012 0.015
+2020-03-27 18:00:15,687 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:15] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.002 0.003
+2020-03-27 18:00:16,761 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:16] "POST /web/action/load HTTP/1.1" 200 - 14 0.007 0.017
+2020-03-27 18:00:16,796 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:16] "POST /web/dataset/call_kw/andresperez.reserva/load_views HTTP/1.1" 200 - 26 0.010 0.016
+2020-03-27 18:00:16,825 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:16] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.002 0.003
+2020-03-27 18:00:18,859 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:18] "POST /web/dataset/call_kw/andresperez.reserva/default_get HTTP/1.1" 200 - 2 0.001 0.003
+2020-03-27 18:00:39,589 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:39] "POST /web/dataset/call_kw/andresperez.reserva/create HTTP/1.1" 200 - 4 0.017 0.005
+2020-03-27 18:00:39,602 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:39] "POST /web/dataset/call_kw/andresperez.reserva/read HTTP/1.1" 200 - 2 0.001 0.003
+2020-03-27 18:00:40,274 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:00:40] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.001 0.003
+2020-03-27 18:00:52,798 1 INFO ? odoo.service.server: Initiating shutdown 
+2020-03-27 18:00:52,799 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2020-03-27 18:00:56,053 1 INFO ? odoo: Odoo version 12.0-20200121 
+2020-03-27 18:00:56,053 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2020-03-27 18:00:56,053 1 INFO ? odoo: addons paths: ['/var/lib/odoo/addons/12.0', '/mnt/extra-addons', '/usr/lib/python3/dist-packages/odoo/addons'] 
+2020-03-27 18:00:56,054 1 INFO ? odoo: database: odoo@db:5432 
+2020-03-27 18:00:56,134 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2020-03-27 18:00:56,215 1 INFO ? odoo.service.server: Watching addons folder /var/lib/odoo/addons/12.0 
+2020-03-27 18:00:56,215 1 INFO ? odoo.service.server: Watching addons folder /mnt/extra-addons 
+2020-03-27 18:00:56,215 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/odoo/addons 
+2020-03-27 18:00:56,351 1 INFO ? odoo.service.server: AutoReload watcher running with watchdog 
+2020-03-27 18:00:56,354 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 2cd53e1198ba:8069 
+2020-03-27 18:01:07,674 1 INFO ? odoo.http: HTTP Configuring static files 
+2020-03-27 18:01:07,690 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:01:07,709 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries 
+2020-03-27 18:01:07,715 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:01:07,758 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.04s, 0 queries 
+2020-03-27 18:01:07,885 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 18:01:07,888 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 18:01:08,043 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:01:08] "POST /web/action/load HTTP/1.1" 200 - 64 0.041 0.326
+2020-03-27 18:01:08,162 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:01:08] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 99 0.040 0.069
+2020-03-27 18:01:08,224 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:01:08] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.004 0.007
+2020-03-27 18:01:10,199 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:01:10,201 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:01:10,201 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:01:10,709 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:01:10,722 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:01:10,733 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2020-03-27 18:01:10,829 1 INFO andresperez odoo.modules.loading: updating modules list 
+2020-03-27 18:01:10,831 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.18.0.1 
+2020-03-27 18:01:11,316 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:01:11,368 1 INFO andresperez odoo.modules.registry: module andresperez: creating or updating database tables 
+2020-03-27 18:01:11,482 1 INFO andresperez odoo.modules.loading: loading andresperez/security/ir.model.access.csv 
+2020-03-27 18:01:11,503 1 INFO andresperez odoo.modules.loading: loading andresperez/views/cliente.xml 
+2020-03-27 18:01:11,506 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:01:11,543 1 INFO andresperez odoo.modules.loading: loading andresperez/views/alquiler.xml 
+2020-03-27 18:01:11,545 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:01:11,583 1 INFO andresperez odoo.modules.loading: loading andresperez/views/reserva.xml 
+2020-03-27 18:01:11,585 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:01:11,617 1 INFO andresperez odoo.modules.loading: loading andresperez/views/menu.xml 
+2020-03-27 18:01:11,637 1 INFO andresperez odoo.modules.loading: loading andresperez/views/views.xml 
+2020-03-27 18:01:11,638 1 INFO andresperez odoo.modules.loading: loading andresperez/views/templates.xml 
+2020-03-27 18:01:11,686 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.37s, 0 queries 
+2020-03-27 18:01:11,798 1 INFO andresperez odoo.modules.registry: verifying fields for every extended model 
+2020-03-27 18:01:11,924 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 18:01:11,929 1 INFO andresperez odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2020-03-27 18:01:11,933 1 INFO andresperez odoo.modules.registry: Registry changed, signaling through the database 
+2020-03-27 18:01:11,934 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:01:11] "POST /web/dataset/call_button HTTP/1.1" 200 - 1682 0.592 1.150
+2020-03-27 18:01:11,943 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 18:01:12,367 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:01:12] "GET /web HTTP/1.1" 200 - 328 0.113 0.313
+2020-03-27 18:01:12,547 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:01:12] "GET /web/webclient/qweb?mods=base,web,andresperez,base_import,web_settings_dashboard,iap,web_diagram,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 304 - 1 0.000 0.050
+2020-03-27 18:01:12,561 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:01:12] "POST /web/dataset/call HTTP/1.1" 200 - 13 0.004 0.008
+2020-03-27 18:01:12,576 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:01:12] "POST /web/webclient/translations HTTP/1.1" 200 - 6 0.002 0.005
+2020-03-27 18:01:12,596 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:01:12] "POST /web/dataset/call_kw/ir.ui.menu/load_menus HTTP/1.1" 200 - 1 0.000 0.003
+2020-03-27 18:01:12,617 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 18:01:12] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 304 - - - -
+2020-03-27 18:01:12,628 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:01:12] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.005
+2020-03-27 18:01:12,648 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:01:12] "GET /web/image?model=res.users&field=image_small&id=2 HTTP/1.1" 200 - 27 0.015 0.015
+2020-03-27 18:01:12,666 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:01:12] "POST /web/action/load HTTP/1.1" 200 - 19 0.013 0.019
+2020-03-27 18:01:12,706 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:01:12] "POST /web/dataset/call_kw/andresperez.cliente/load_views HTTP/1.1" 200 - 31 0.010 0.015
+2020-03-27 18:01:12,770 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:01:12] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.001 0.002
+2020-03-27 18:01:14,005 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:01:14] "POST /web/action/load HTTP/1.1" 200 - 14 0.006 0.017
+2020-03-27 18:01:14,044 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:01:14] "POST /web/dataset/call_kw/andresperez.reserva/load_views HTTP/1.1" 200 - 26 0.010 0.020
+2020-03-27 18:01:14,073 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:01:14] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.003 0.003
+2020-03-27 18:03:53,453 1 INFO ? odoo.service.server: Initiating shutdown 
+2020-03-27 18:03:53,453 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2020-03-27 18:03:56,634 1 INFO ? odoo: Odoo version 12.0-20200121 
+2020-03-27 18:03:56,635 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2020-03-27 18:03:56,635 1 INFO ? odoo: addons paths: ['/var/lib/odoo/addons/12.0', '/mnt/extra-addons', '/usr/lib/python3/dist-packages/odoo/addons'] 
+2020-03-27 18:03:56,635 1 INFO ? odoo: database: odoo@db:5432 
+2020-03-27 18:03:56,752 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2020-03-27 18:03:56,849 1 INFO ? odoo.service.server: Watching addons folder /var/lib/odoo/addons/12.0 
+2020-03-27 18:03:56,849 1 INFO ? odoo.service.server: Watching addons folder /mnt/extra-addons 
+2020-03-27 18:03:56,849 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/odoo/addons 
+2020-03-27 18:03:56,987 1 INFO ? odoo.service.server: AutoReload watcher running with watchdog 
+2020-03-27 18:03:56,991 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 2cd53e1198ba:8069 
+2020-03-27 18:03:59,026 1 INFO ? odoo.http: HTTP Configuring static files 
+2020-03-27 18:03:59,039 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:03:59,052 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2020-03-27 18:03:59,057 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:03:59,104 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.05s, 0 queries 
+2020-03-27 18:03:59,241 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 18:03:59,243 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 18:03:59,391 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:03:59] "POST /web/action/load HTTP/1.1" 200 - 64 0.029 0.334
+2020-03-27 18:03:59,519 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:03:59] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 99 0.041 0.073
+2020-03-27 18:03:59,590 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:03:59] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.004 0.007
+2020-03-27 18:04:01,731 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:04:01,732 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:04:01,733 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:04:02,293 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:04:02,308 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:04:02,326 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries 
+2020-03-27 18:04:02,420 1 INFO andresperez odoo.modules.loading: updating modules list 
+2020-03-27 18:04:02,421 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.18.0.1 
+2020-03-27 18:04:02,903 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:04:02,971 1 INFO andresperez odoo.modules.registry: module andresperez: creating or updating database tables 
+2020-03-27 18:04:03,063 1 INFO andresperez odoo.modules.loading: loading andresperez/security/ir.model.access.csv 
+2020-03-27 18:04:03,080 1 INFO andresperez odoo.modules.loading: loading andresperez/views/cliente.xml 
+2020-03-27 18:04:03,082 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:04:03,119 1 INFO andresperez odoo.modules.loading: loading andresperez/views/alquiler.xml 
+2020-03-27 18:04:03,121 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:04:03,156 1 INFO andresperez odoo.modules.loading: loading andresperez/views/reserva.xml 
+2020-03-27 18:04:03,158 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:04:03,190 1 INFO andresperez odoo.addons.base.models.ir_ui_view: Field `partner_id` does not exist
+
+Error context:
+View `reserva.calendar`
+[view_id: 238, xml_id: n/a, model: andresperez.reserva, parent_id: n/a] 
+2020-03-27 18:04:03,192 1 WARNING andresperez odoo.modules.loading: Transient module states were reset 
+2020-03-27 18:04:03,193 1 ERROR andresperez odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1117, in _validate_fields
+    check(self)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 351, in _check_xml
+    self.postprocess_and_fields(view.model, view_doc, view.id)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 1111, in postprocess_and_fields
+    self.raise_view_error(message, view_id)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 548, in raise_view_error
+    raise ValueError(message)
+ValueError: Field `partner_id` does not exist
+
+Error context:
+View `reserva.calendar`
+[view_id: 238, xml_id: n/a, model: andresperez.reserva, parent_id: n/a]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 758, in parse
+    self._tags[rec.tag](rec, de, mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 663, in _tag_record
+    record = model.with_context(rec_context)._load_records([data], self.mode == 'update')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3879, in _load_records
+    records = self._load_records_create([data['values'] for data in to_create])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3793, in _load_records_create
+    return self.create(values)
+  File "<decorator-gen-32>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 462, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 428, in create
+    return super(View, self).create(vals_list)
+  File "<decorator-gen-3>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 462, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3610, in create
+    fields[0].determine_inverse(batch_recs)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1141, in determine_inverse
+    getattr(records, self.inverse)()
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 275, in _inverse_arch
+    view.write(data)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 444, in write
+    return super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3335, in write
+    self._write(store_vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3471, in _write
+    self._validate_fields(vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1121, in _validate_fields
+    raise ValidationError("%s\n\n%s" % (_("Error while validating constraint"), tools.ustr(e)))
+odoo.exceptions.ValidationError: ('Error while validating constraint\n\nField `partner_id` does not exist\n\nError context:\nView `reserva.calendar`\n[view_id: 238, xml_id: n/a, model: andresperez.reserva, parent_id: n/a]', None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 86, in new
+    odoo.modules.load_modules(registry._db, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 417, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 313, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 222, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package, report=report)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 68, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind, report)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 802, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate, report)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 865, in convert_xml_import
+    obj.parse(doc.getroot(), mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 755, in parse
+    self.parse(rec, mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 764, in parse
+    exc_info[2]
+  File "/usr/lib/python3/dist-packages/odoo/tools/pycompat.py", line 86, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 758, in parse
+    self._tags[rec.tag](rec, de, mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 663, in _tag_record
+    record = model.with_context(rec_context)._load_records([data], self.mode == 'update')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3879, in _load_records
+    records = self._load_records_create([data['values'] for data in to_create])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3793, in _load_records_create
+    return self.create(values)
+  File "<decorator-gen-32>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 462, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 428, in create
+    return super(View, self).create(vals_list)
+  File "<decorator-gen-3>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 462, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3610, in create
+    fields[0].determine_inverse(batch_recs)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1141, in determine_inverse
+    getattr(records, self.inverse)()
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 275, in _inverse_arch
+    view.write(data)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 444, in write
+    return super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3335, in write
+    self._write(store_vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3471, in _write
+    self._validate_fields(vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1121, in _validate_fields
+    raise ValidationError("%s\n\n%s" % (_("Error while validating constraint"), tools.ustr(e)))
+odoo.tools.convert.ParseError: "Error while validating constraint
+
+Field `partner_id` does not exist
+
+Error context:
+View `reserva.calendar`
+[view_id: 238, xml_id: n/a, model: andresperez.reserva, parent_id: n/a]
+None" while parsing /mnt/extra-addons/andresperez/views/reserva.xml:44, near
+<record model="ir.ui.view" id="reserva_calendar_view">
+            <field name="name">reserva.calendar</field>
+            <field name="model">andresperez.reserva</field>
+            <field name="arch" type="xml">
+                <calendar string="reserva Calendar" color="partner_id">
+                    <field name="fecha"/>
+                    <field name="hora_inicio"/>
+                    <field name="hora_fin"/>
+                    <field name="n_k1"/>
+                    <field name="n_k2"/>
+                    <field name="n_personas"/>
+                    <field name="telefono"/>
+                </calendar>
+            </field>
+        </record>
+2020-03-27 18:04:03,202 1 ERROR andresperez odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1117, in _validate_fields
+    check(self)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 351, in _check_xml
+    self.postprocess_and_fields(view.model, view_doc, view.id)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 1111, in postprocess_and_fields
+    self.raise_view_error(message, view_id)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 548, in raise_view_error
+    raise ValueError(message)
+ValueError: Field `partner_id` does not exist
+
+Error context:
+View `reserva.calendar`
+[view_id: 238, xml_id: n/a, model: andresperez.reserva, parent_id: n/a]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 758, in parse
+    self._tags[rec.tag](rec, de, mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 663, in _tag_record
+    record = model.with_context(rec_context)._load_records([data], self.mode == 'update')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3879, in _load_records
+    records = self._load_records_create([data['values'] for data in to_create])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3793, in _load_records_create
+    return self.create(values)
+  File "<decorator-gen-32>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 462, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 428, in create
+    return super(View, self).create(vals_list)
+  File "<decorator-gen-3>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 462, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3610, in create
+    fields[0].determine_inverse(batch_recs)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1141, in determine_inverse
+    getattr(records, self.inverse)()
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 275, in _inverse_arch
+    view.write(data)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 444, in write
+    return super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3335, in write
+    self._write(store_vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3471, in _write
+    self._validate_fields(vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1121, in _validate_fields
+    raise ValidationError("%s\n\n%s" % (_("Error while validating constraint"), tools.ustr(e)))
+odoo.exceptions.ValidationError: ('Error while validating constraint\n\nField `partner_id` does not exist\n\nError context:\nView `reserva.calendar`\n[view_id: 238, xml_id: n/a, model: andresperez.reserva, parent_id: n/a]', None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 656, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 314, in _handle_exception
+    raise pycompat.reraise(type(exception), exception, sys.exc_info()[2])
+  File "/usr/lib/python3/dist-packages/odoo/tools/pycompat.py", line 87, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 698, in dispatch
+    result = self._call_function(**self.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 346, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 97, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 339, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 941, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 519, in response_wrap
+    response = f(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 966, in call_button
+    action = self._call_kw(model, method, args, {})
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 954, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 759, in call_kw
+    return _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 746, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-67>", line 2, in button_immediate_upgrade
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 622, in button_immediate_upgrade
+    return self._button_immediate_function(type(self).button_upgrade)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 561, in _button_immediate_function
+    modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 86, in new
+    odoo.modules.load_modules(registry._db, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 417, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 313, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 222, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package, report=report)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 68, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind, report)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 802, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate, report)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 865, in convert_xml_import
+    obj.parse(doc.getroot(), mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 755, in parse
+    self.parse(rec, mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 764, in parse
+    exc_info[2]
+  File "/usr/lib/python3/dist-packages/odoo/tools/pycompat.py", line 86, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 758, in parse
+    self._tags[rec.tag](rec, de, mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 663, in _tag_record
+    record = model.with_context(rec_context)._load_records([data], self.mode == 'update')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3879, in _load_records
+    records = self._load_records_create([data['values'] for data in to_create])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3793, in _load_records_create
+    return self.create(values)
+  File "<decorator-gen-32>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 462, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 428, in create
+    return super(View, self).create(vals_list)
+  File "<decorator-gen-3>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 462, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3610, in create
+    fields[0].determine_inverse(batch_recs)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1141, in determine_inverse
+    getattr(records, self.inverse)()
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 275, in _inverse_arch
+    view.write(data)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 444, in write
+    return super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3335, in write
+    self._write(store_vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3471, in _write
+    self._validate_fields(vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1121, in _validate_fields
+    raise ValidationError("%s\n\n%s" % (_("Error while validating constraint"), tools.ustr(e)))
+odoo.tools.convert.ParseError: "Error while validating constraint
+
+Field `partner_id` does not exist
+
+Error context:
+View `reserva.calendar`
+[view_id: 238, xml_id: n/a, model: andresperez.reserva, parent_id: n/a]
+None" while parsing /mnt/extra-addons/andresperez/views/reserva.xml:44, near
+<record model="ir.ui.view" id="reserva_calendar_view">
+            <field name="name">reserva.calendar</field>
+            <field name="model">andresperez.reserva</field>
+            <field name="arch" type="xml">
+                <calendar string="reserva Calendar" color="partner_id">
+                    <field name="fecha"/>
+                    <field name="hora_inicio"/>
+                    <field name="hora_fin"/>
+                    <field name="n_k1"/>
+                    <field name="n_k2"/>
+                    <field name="n_personas"/>
+                    <field name="telefono"/>
+                </calendar>
+            </field>
+        </record>
+2020-03-27 18:04:03,208 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:04:03,220 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2020-03-27 18:04:03,225 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:04:03,243 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.02s, 0 queries 
+2020-03-27 18:04:03,276 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 18:04:03,278 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:04:03] "POST /web/dataset/call_button HTTP/1.1" 200 - 1280 0.379 1.175
+2020-03-27 18:05:33,816 1 INFO ? odoo.service.server: Initiating shutdown 
+2020-03-27 18:05:33,816 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2020-03-27 18:05:35,934 1 INFO ? odoo: Odoo version 12.0-20200121 
+2020-03-27 18:05:35,934 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2020-03-27 18:05:35,934 1 INFO ? odoo: addons paths: ['/var/lib/odoo/addons/12.0', '/mnt/extra-addons', '/usr/lib/python3/dist-packages/odoo/addons'] 
+2020-03-27 18:05:35,935 1 INFO ? odoo: database: odoo@db:5432 
+2020-03-27 18:05:36,011 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2020-03-27 18:05:36,106 1 INFO ? odoo.service.server: Watching addons folder /var/lib/odoo/addons/12.0 
+2020-03-27 18:05:36,107 1 INFO ? odoo.service.server: Watching addons folder /mnt/extra-addons 
+2020-03-27 18:05:36,107 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/odoo/addons 
+2020-03-27 18:05:36,243 1 INFO ? odoo.service.server: AutoReload watcher running with watchdog 
+2020-03-27 18:05:36,246 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 2cd53e1198ba:8069 
+2020-03-27 18:05:39,184 1 INFO ? odoo.http: HTTP Configuring static files 
+2020-03-27 18:05:39,201 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:05:39,214 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2020-03-27 18:05:39,219 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:05:39,259 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.04s, 0 queries 
+2020-03-27 18:05:39,387 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 18:05:39,390 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 18:05:39,487 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:05:39,488 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:05:39,488 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:05:40,071 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:05:40,084 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:05:40,098 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2020-03-27 18:05:40,199 1 INFO andresperez odoo.modules.loading: updating modules list 
+2020-03-27 18:05:40,201 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.18.0.1 
+2020-03-27 18:05:40,674 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:05:40,732 1 INFO andresperez odoo.modules.registry: module andresperez: creating or updating database tables 
+2020-03-27 18:05:40,827 1 INFO andresperez odoo.modules.loading: loading andresperez/security/ir.model.access.csv 
+2020-03-27 18:05:40,845 1 INFO andresperez odoo.modules.loading: loading andresperez/views/cliente.xml 
+2020-03-27 18:05:40,847 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:05:40,881 1 INFO andresperez odoo.modules.loading: loading andresperez/views/alquiler.xml 
+2020-03-27 18:05:40,883 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:05:40,912 1 INFO andresperez odoo.modules.loading: loading andresperez/views/reserva.xml 
+2020-03-27 18:05:40,914 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:05:40,952 1 INFO andresperez odoo.modules.loading: loading andresperez/views/menu.xml 
+2020-03-27 18:05:40,970 1 INFO andresperez odoo.modules.loading: loading andresperez/views/views.xml 
+2020-03-27 18:05:40,972 1 INFO andresperez odoo.modules.loading: loading andresperez/views/templates.xml 
+2020-03-27 18:05:41,012 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.34s, 0 queries 
+2020-03-27 18:05:41,122 1 INFO andresperez odoo.modules.registry: verifying fields for every extended model 
+2020-03-27 18:05:41,226 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 18:05:41,232 1 INFO andresperez odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2020-03-27 18:05:41,236 1 INFO andresperez odoo.modules.registry: Registry changed, signaling through the database 
+2020-03-27 18:05:41,237 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:05:41] "POST /web/dataset/call_button HTTP/1.1" 200 - 1715 0.576 1.474
+2020-03-27 18:05:41,251 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 18:05:41,701 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:05:41] "GET /web HTTP/1.1" 200 - 328 0.118 0.333
+2020-03-27 18:05:41,888 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:05:41] "GET /web/webclient/qweb?mods=base,web,andresperez,base_import,web_settings_dashboard,iap,web_diagram,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.049
+2020-03-27 18:05:41,903 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:05:41] "POST /web/dataset/call HTTP/1.1" 200 - 13 0.005 0.009
+2020-03-27 18:05:41,921 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:05:41] "POST /web/webclient/translations HTTP/1.1" 200 - 6 0.002 0.005
+2020-03-27 18:05:41,945 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:05:41] "POST /web/dataset/call_kw/ir.ui.menu/load_menus HTTP/1.1" 200 - 1 0.000 0.003
+2020-03-27 18:05:41,969 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 18:05:41] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 304 - - - -
+2020-03-27 18:05:41,981 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:05:41] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.005
+2020-03-27 18:05:42,004 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:05:42] "GET /web/image?model=res.users&field=image_small&id=2 HTTP/1.1" 304 - 27 0.017 0.015
+2020-03-27 18:05:42,010 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:05:42] "POST /web/action/load HTTP/1.1" 200 - 19 0.012 0.012
+2020-03-27 18:05:42,056 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:05:42] "POST /web/dataset/call_kw/andresperez.cliente/load_views HTTP/1.1" 200 - 31 0.013 0.021
+2020-03-27 18:05:42,117 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:05:42] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.002 0.003
+2020-03-27 18:05:43,107 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:05:43] "POST /web/action/load HTTP/1.1" 200 - 14 0.007 0.016
+2020-03-27 18:05:43,141 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:05:43] "POST /web/dataset/call_kw/andresperez.reserva/load_views HTTP/1.1" 200 - 26 0.009 0.015
+2020-03-27 18:05:43,169 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:05:43] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.002 0.003
+2020-03-27 18:05:56,541 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:05:56] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.001 0.003
+2020-03-27 18:06:09,045 1 INFO ? odoo.service.server: Initiating shutdown 
+2020-03-27 18:06:09,045 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2020-03-27 18:06:12,179 1 INFO ? odoo: Odoo version 12.0-20200121 
+2020-03-27 18:06:12,179 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2020-03-27 18:06:12,179 1 INFO ? odoo: addons paths: ['/var/lib/odoo/addons/12.0', '/mnt/extra-addons', '/usr/lib/python3/dist-packages/odoo/addons'] 
+2020-03-27 18:06:12,179 1 INFO ? odoo: database: odoo@db:5432 
+2020-03-27 18:06:12,259 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2020-03-27 18:06:12,355 1 INFO ? odoo.service.server: Watching addons folder /var/lib/odoo/addons/12.0 
+2020-03-27 18:06:12,355 1 INFO ? odoo.service.server: Watching addons folder /mnt/extra-addons 
+2020-03-27 18:06:12,355 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/odoo/addons 
+2020-03-27 18:06:12,490 1 INFO ? odoo.service.server: AutoReload watcher running with watchdog 
+2020-03-27 18:06:12,493 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 2cd53e1198ba:8069 
+2020-03-27 18:06:13,399 1 INFO ? odoo.http: HTTP Configuring static files 
+2020-03-27 18:06:13,412 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:06:13,432 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries 
+2020-03-27 18:06:13,437 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:06:13,479 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.04s, 0 queries 
+2020-03-27 18:06:13,603 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 18:06:13,606 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 18:06:13,687 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:06:13] "POST /web/webclient/version_info HTTP/1.1" 200 - 12 0.009 0.277
+2020-03-27 18:07:12,499 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:07:12] "POST /web/action/load HTTP/1.1" 200 - 53 0.027 0.057
+2020-03-27 18:07:12,599 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:07:12] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 99 0.035 0.055
+2020-03-27 18:07:12,656 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:07:12] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.003 0.007
+2020-03-27 18:07:14,668 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:07:14,669 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:07:14,669 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:07:15,250 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:07:15,259 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:07:15,271 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2020-03-27 18:07:15,366 1 INFO andresperez odoo.modules.loading: updating modules list 
+2020-03-27 18:07:15,367 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.18.0.1 
+2020-03-27 18:07:15,804 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:07:15,861 1 INFO andresperez odoo.modules.registry: module andresperez: creating or updating database tables 
+2020-03-27 18:07:15,971 1 INFO andresperez odoo.modules.loading: loading andresperez/security/ir.model.access.csv 
+2020-03-27 18:07:15,991 1 INFO andresperez odoo.modules.loading: loading andresperez/views/cliente.xml 
+2020-03-27 18:07:15,993 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:07:16,028 1 INFO andresperez odoo.modules.loading: loading andresperez/views/alquiler.xml 
+2020-03-27 18:07:16,030 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:07:16,062 1 INFO andresperez odoo.modules.loading: loading andresperez/views/reserva.xml 
+2020-03-27 18:07:16,064 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:07:16,095 1 INFO andresperez odoo.modules.loading: loading andresperez/views/menu.xml 
+2020-03-27 18:07:16,114 1 INFO andresperez odoo.modules.loading: loading andresperez/views/views.xml 
+2020-03-27 18:07:16,116 1 INFO andresperez odoo.modules.loading: loading andresperez/views/templates.xml 
+2020-03-27 18:07:16,158 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.35s, 0 queries 
+2020-03-27 18:07:16,269 1 INFO andresperez odoo.addons.base.models.ir_model: Deleting 237@ir.ui.view (andresperez.reserva_tree_view) 
+2020-03-27 18:07:16,288 1 INFO andresperez odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [4003] 
+2020-03-27 18:07:16,292 1 INFO andresperez odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [237] 
+2020-03-27 18:07:16,292 1 INFO andresperez odoo.modules.registry: verifying fields for every extended model 
+2020-03-27 18:07:16,409 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 18:07:16,414 1 INFO andresperez odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2020-03-27 18:07:16,418 1 INFO andresperez odoo.modules.registry: Registry changed, signaling through the database 
+2020-03-27 18:07:16,419 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:07:16] "POST /web/dataset/call_button HTTP/1.1" 200 - 1703 0.592 1.168
+2020-03-27 18:07:16,429 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 18:07:16,885 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:07:16] "GET /web HTTP/1.1" 200 - 328 0.108 0.350
+2020-03-27 18:07:17,045 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:07:17] "GET /web/webclient/qweb?mods=base,web,andresperez,base_import,web_settings_dashboard,iap,web_diagram,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.043
+2020-03-27 18:07:17,060 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:07:17] "POST /web/dataset/call HTTP/1.1" 200 - 13 0.005 0.009
+2020-03-27 18:07:17,077 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:07:17] "POST /web/webclient/translations HTTP/1.1" 200 - 6 0.002 0.004
+2020-03-27 18:07:17,099 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:07:17] "POST /web/dataset/call_kw/ir.ui.menu/load_menus HTTP/1.1" 200 - 1 0.000 0.003
+2020-03-27 18:07:17,120 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 18:07:17] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 304 - - - -
+2020-03-27 18:07:17,133 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:07:17] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.005
+2020-03-27 18:07:17,152 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:07:17] "GET /web/image?model=res.users&field=image_small&id=2 HTTP/1.1" 304 - 27 0.016 0.015
+2020-03-27 18:07:17,160 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:07:17] "POST /web/action/load HTTP/1.1" 200 - 19 0.010 0.012
+2020-03-27 18:07:17,198 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:07:17] "POST /web/dataset/call_kw/andresperez.cliente/load_views HTTP/1.1" 200 - 31 0.011 0.014
+2020-03-27 18:07:17,249 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:07:17] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.002 0.003
+2020-03-27 18:07:17,877 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:07:17] "POST /web/action/load HTTP/1.1" 200 - 14 0.006 0.015
+2020-03-27 18:07:17,910 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:07:17] "POST /web/dataset/call_kw/andresperez.reserva/load_views HTTP/1.1" 200 - 19 0.008 0.016
+2020-03-27 18:07:17,938 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:07:17] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.002 0.003
+2020-03-27 18:08:39,229 1 INFO ? odoo.service.server: Initiating shutdown 
+2020-03-27 18:08:39,229 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2020-03-27 18:08:42,911 1 INFO ? odoo: Odoo version 12.0-20200121 
+2020-03-27 18:08:42,912 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2020-03-27 18:08:42,912 1 INFO ? odoo: addons paths: ['/var/lib/odoo/addons/12.0', '/mnt/extra-addons', '/usr/lib/python3/dist-packages/odoo/addons'] 
+2020-03-27 18:08:42,912 1 INFO ? odoo: database: odoo@db:5432 
+2020-03-27 18:08:43,001 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2020-03-27 18:08:43,106 1 INFO ? odoo.service.server: Watching addons folder /var/lib/odoo/addons/12.0 
+2020-03-27 18:08:43,107 1 INFO ? odoo.service.server: Watching addons folder /mnt/extra-addons 
+2020-03-27 18:08:43,107 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/odoo/addons 
+2020-03-27 18:08:43,241 1 INFO ? odoo.service.server: AutoReload watcher running with watchdog 
+2020-03-27 18:08:43,244 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 2cd53e1198ba:8069 
+2020-03-27 18:08:44,890 1 INFO ? odoo.http: HTTP Configuring static files 
+2020-03-27 18:08:44,903 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:08:44,924 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries 
+2020-03-27 18:08:44,931 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:08:44,980 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.05s, 0 queries 
+2020-03-27 18:08:45,111 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 18:08:45,113 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 18:08:45,191 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:45] "POST /web/webclient/version_info HTTP/1.1" 200 - 12 0.008 0.290
+2020-03-27 18:08:45,916 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:45] "POST /web/action/load HTTP/1.1" 200 - 53 0.025 0.069
+2020-03-27 18:08:46,020 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:46] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 99 0.040 0.053
+2020-03-27 18:08:46,072 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:46] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.004 0.007
+2020-03-27 18:08:46,112 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:46] "GET /project/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-27 18:08:46,115 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:46] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - - - -
+2020-03-27 18:08:46,126 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:46] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - - - -
+2020-03-27 18:08:48,227 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:08:48,228 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:08:48,229 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:08:48,743 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:08:48,756 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:08:48,775 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries 
+2020-03-27 18:08:48,874 1 INFO andresperez odoo.modules.loading: updating modules list 
+2020-03-27 18:08:48,876 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.18.0.1 
+2020-03-27 18:08:49,347 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:08:49,399 1 INFO andresperez odoo.modules.registry: module andresperez: creating or updating database tables 
+2020-03-27 18:08:49,512 1 INFO andresperez odoo.modules.loading: loading andresperez/security/ir.model.access.csv 
+2020-03-27 18:08:49,532 1 INFO andresperez odoo.modules.loading: loading andresperez/views/cliente.xml 
+2020-03-27 18:08:49,535 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:08:49,572 1 INFO andresperez odoo.modules.loading: loading andresperez/views/alquiler.xml 
+2020-03-27 18:08:49,574 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:08:49,612 1 INFO andresperez odoo.modules.loading: loading andresperez/views/reserva.xml 
+2020-03-27 18:08:49,614 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:08:49,643 1 INFO andresperez odoo.modules.loading: loading andresperez/views/menu.xml 
+2020-03-27 18:08:49,660 1 INFO andresperez odoo.modules.loading: loading andresperez/views/views.xml 
+2020-03-27 18:08:49,662 1 INFO andresperez odoo.modules.loading: loading andresperez/views/templates.xml 
+2020-03-27 18:08:49,706 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.36s, 0 queries 
+2020-03-27 18:08:49,811 1 INFO andresperez odoo.modules.registry: verifying fields for every extended model 
+2020-03-27 18:08:49,928 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 18:08:49,933 1 INFO andresperez odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2020-03-27 18:08:49,937 1 INFO andresperez odoo.modules.registry: Registry changed, signaling through the database 
+2020-03-27 18:08:49,938 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:49] "POST /web/dataset/call_button HTTP/1.1" 200 - 1682 0.552 1.165
+2020-03-27 18:08:49,948 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 18:08:50,383 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:50] "GET /web HTTP/1.1" 200 - 328 0.106 0.331
+2020-03-27 18:08:50,423 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:50] "GET /web/content/250-e06fb74/web_editor.assets_editor.0.css HTTP/1.1" 200 - 7 0.003 0.007
+2020-03-27 18:08:50,539 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:50] "GET /web/webclient/qweb?mods=base,web,andresperez,base_import,web_settings_dashboard,iap,web_diagram,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.031
+2020-03-27 18:08:50,566 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:50] "POST /web/dataset/call HTTP/1.1" 200 - 13 0.005 0.011
+2020-03-27 18:08:50,587 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:50] "POST /web/webclient/translations HTTP/1.1" 200 - 6 0.002 0.005
+2020-03-27 18:08:50,609 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:50] "POST /web/dataset/call_kw/ir.ui.menu/load_menus HTTP/1.1" 200 - 1 0.000 0.003
+2020-03-27 18:08:50,630 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:50] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 200 - - - -
+2020-03-27 18:08:50,643 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:50] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.005
+2020-03-27 18:08:50,664 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:50] "GET /web/image?model=res.users&field=image_small&id=2 HTTP/1.1" 200 - 27 0.016 0.016
+2020-03-27 18:08:50,682 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:50] "POST /web/action/load HTTP/1.1" 200 - 19 0.015 0.017
+2020-03-27 18:08:50,722 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:50] "POST /web/dataset/call_kw/andresperez.cliente/load_views HTTP/1.1" 200 - 31 0.012 0.017
+2020-03-27 18:08:50,768 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:50] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.002 0.003
+2020-03-27 18:08:51,660 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:51] "POST /web/action/load HTTP/1.1" 200 - 14 0.007 0.015
+2020-03-27 18:08:51,692 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:51] "POST /web/dataset/call_kw/andresperez.reserva/load_views HTTP/1.1" 200 - 19 0.008 0.015
+2020-03-27 18:08:51,721 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:51] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.002 0.003
+2020-03-27 18:08:55,006 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:08:55] "POST /web/dataset/call_kw/andresperez.reserva/default_get HTTP/1.1" 200 - 2 0.002 0.002
+2020-03-27 18:09:06,003 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:09:06] "POST /web/dataset/call_kw/andresperez.reserva/create HTTP/1.1" 200 - 4 0.003 0.020
+2020-03-27 18:09:06,017 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:09:06] "POST /web/dataset/call_kw/andresperez.reserva/read HTTP/1.1" 200 - 2 0.001 0.003
+2020-03-27 18:09:07,634 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:09:07] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.001 0.003
+2020-03-27 18:09:08,801 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:09:08] "POST /web/dataset/call_kw/andresperez.reserva/read HTTP/1.1" 200 - 2 0.001 0.003
+2020-03-27 18:09:10,008 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:09:10] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.001 0.003
+2020-03-27 18:12:56,987 1 INFO ? odoo.service.server: Initiating shutdown 
+2020-03-27 18:12:56,987 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2020-03-27 18:13:00,030 1 INFO ? odoo: Odoo version 12.0-20200121 
+2020-03-27 18:13:00,031 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2020-03-27 18:13:00,031 1 INFO ? odoo: addons paths: ['/var/lib/odoo/addons/12.0', '/mnt/extra-addons', '/usr/lib/python3/dist-packages/odoo/addons'] 
+2020-03-27 18:13:00,031 1 INFO ? odoo: database: odoo@db:5432 
+2020-03-27 18:13:00,111 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2020-03-27 18:13:00,202 1 INFO ? odoo.service.server: Watching addons folder /var/lib/odoo/addons/12.0 
+2020-03-27 18:13:00,203 1 INFO ? odoo.service.server: Watching addons folder /mnt/extra-addons 
+2020-03-27 18:13:00,203 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/odoo/addons 
+2020-03-27 18:13:00,341 1 INFO ? odoo.service.server: AutoReload watcher running with watchdog 
+2020-03-27 18:13:00,344 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 2cd53e1198ba:8069 
+2020-03-27 18:13:01,334 1 INFO ? odoo.http: HTTP Configuring static files 
+2020-03-27 18:13:01,348 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:13:01,368 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries 
+2020-03-27 18:13:01,376 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:13:01,427 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.05s, 0 queries 
+2020-03-27 18:13:01,562 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 18:13:01,565 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 18:13:01,722 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:13:01] "POST /web/action/load HTTP/1.1" 200 - 64 0.027 0.359
+2020-03-27 18:13:01,832 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:13:01] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 99 0.038 0.057
+2020-03-27 18:13:01,904 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:13:01] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.004 0.007
+2020-03-27 18:13:07,916 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:13:07] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.004 0.029
+2020-03-27 18:13:09,089 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:13:09] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.007
+2020-03-27 18:13:12,795 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:13:12] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.003 0.035
+2020-03-27 18:13:14,262 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:13:14] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 11 0.008 0.084
+2020-03-27 18:13:14,281 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:13:14] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 - 4 0.002 0.009
+2020-03-27 18:13:14,304 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:13:14] "POST /web/dataset/call_kw/ir.module.category/name_search HTTP/1.1" 200 - 5 0.004 0.010
+2020-03-27 18:13:14,390 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 18:13:14] "GET /base/static/src/css/description.css HTTP/1.1" 200 - - - -
+2020-03-27 18:13:16,070 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:13:16] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.005
+2020-03-27 18:13:18,409 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:13:18] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.003 0.009
+2020-03-27 18:13:18,484 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 18:13:18] "GET /hr_timesheet/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-27 18:13:18,486 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 18:13:18] "GET /hr_payroll/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-27 18:13:18,489 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 18:13:18] "GET /website_crm/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-27 18:13:18,502 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 18:13:18] "GET /account_check_printing/static/description/icon.png HTTP/1.1" 200 - - - -
+2020-03-27 18:13:23,674 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:13:23,675 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:13:23,675 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:13:24,233 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:13:24,262 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:13:24,280 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries 
+2020-03-27 18:13:24,389 1 INFO andresperez odoo.modules.loading: updating modules list 
+2020-03-27 18:13:24,391 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.18.0.1 
+2020-03-27 18:13:24,838 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:13:24,893 1 INFO andresperez odoo.modules.registry: module andresperez: creating or updating database tables 
+2020-03-27 18:13:24,946 1 INFO andresperez odoo.modules.loading: loading andresperez/security/ir.model.access.csv 
+2020-03-27 18:13:24,967 1 INFO andresperez odoo.modules.loading: loading andresperez/views/cliente.xml 
+2020-03-27 18:13:24,970 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:13:25,011 1 INFO andresperez odoo.modules.loading: loading andresperez/views/alquiler.xml 
+2020-03-27 18:13:25,013 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:13:25,054 1 INFO andresperez odoo.modules.loading: loading andresperez/views/reserva.xml 
+2020-03-27 18:13:25,094 1 INFO andresperez odoo.addons.base.models.ir_ui_view: Field `date_request` does not exist
+
+Error context:
+View `reserva.calendar`
+[view_id: 239, xml_id: andresperez.reserva_calendar_view, model: andresperez.reserva, parent_id: n/a] 
+2020-03-27 18:13:25,096 1 WARNING andresperez odoo.modules.loading: Transient module states were reset 
+2020-03-27 18:13:25,111 1 ERROR andresperez odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1117, in _validate_fields
+    check(self)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 351, in _check_xml
+    self.postprocess_and_fields(view.model, view_doc, view.id)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 1111, in postprocess_and_fields
+    self.raise_view_error(message, view_id)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 548, in raise_view_error
+    raise ValueError(message)
+ValueError: Field `date_request` does not exist
+
+Error context:
+View `reserva.calendar`
+[view_id: 239, xml_id: andresperez.reserva_calendar_view, model: andresperez.reserva, parent_id: n/a]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 758, in parse
+    self._tags[rec.tag](rec, de, mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 663, in _tag_record
+    record = model.with_context(rec_context)._load_records([data], self.mode == 'update')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3852, in _load_records
+    data['record']._load_records_write(data['values'])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3790, in _load_records_write
+    self.write(values)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 444, in write
+    return super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3361, in write
+    fields[0].determine_inverse(records)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1141, in determine_inverse
+    getattr(records, self.inverse)()
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 275, in _inverse_arch
+    view.write(data)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 444, in write
+    return super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3335, in write
+    self._write(store_vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3471, in _write
+    self._validate_fields(vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1121, in _validate_fields
+    raise ValidationError("%s\n\n%s" % (_("Error while validating constraint"), tools.ustr(e)))
+odoo.exceptions.ValidationError: ('Error while validating constraint\n\nField `date_request` does not exist\n\nError context:\nView `reserva.calendar`\n[view_id: 239, xml_id: andresperez.reserva_calendar_view, model: andresperez.reserva, parent_id: n/a]', None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 86, in new
+    odoo.modules.load_modules(registry._db, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 417, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 313, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 222, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package, report=report)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 68, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind, report)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 802, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate, report)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 865, in convert_xml_import
+    obj.parse(doc.getroot(), mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 755, in parse
+    self.parse(rec, mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 764, in parse
+    exc_info[2]
+  File "/usr/lib/python3/dist-packages/odoo/tools/pycompat.py", line 86, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 758, in parse
+    self._tags[rec.tag](rec, de, mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 663, in _tag_record
+    record = model.with_context(rec_context)._load_records([data], self.mode == 'update')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3852, in _load_records
+    data['record']._load_records_write(data['values'])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3790, in _load_records_write
+    self.write(values)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 444, in write
+    return super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3361, in write
+    fields[0].determine_inverse(records)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1141, in determine_inverse
+    getattr(records, self.inverse)()
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 275, in _inverse_arch
+    view.write(data)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 444, in write
+    return super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3335, in write
+    self._write(store_vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3471, in _write
+    self._validate_fields(vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1121, in _validate_fields
+    raise ValidationError("%s\n\n%s" % (_("Error while validating constraint"), tools.ustr(e)))
+odoo.tools.convert.ParseError: "Error while validating constraint
+
+Field `date_request` does not exist
+
+Error context:
+View `reserva.calendar`
+[view_id: 239, xml_id: andresperez.reserva_calendar_view, model: andresperez.reserva, parent_id: n/a]
+None" while parsing /mnt/extra-addons/andresperez/views/reserva.xml:44, near
+<record model="ir.ui.view" id="reserva_calendar_view">
+            <field name="name">reserva.calendar</field>
+            <field name="model">andresperez.reserva</field>
+            <field name="arch" type="xml">
+
+                <calendar string="Service Request" date_start="date_request" date_stop="return_date" event_open_popup="true" mode="month" color="person_name" quick_add="False">
+
+                    <field name="fecha"/>
+                    <field name="hora_inicio"/>
+                    <field name="n_personas"/>
+                    <field name="telefono"/>
+
+                </calendar>
+            </field>
+        </record>
+2020-03-27 18:13:25,114 1 ERROR andresperez odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1117, in _validate_fields
+    check(self)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 351, in _check_xml
+    self.postprocess_and_fields(view.model, view_doc, view.id)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 1111, in postprocess_and_fields
+    self.raise_view_error(message, view_id)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 548, in raise_view_error
+    raise ValueError(message)
+ValueError: Field `date_request` does not exist
+
+Error context:
+View `reserva.calendar`
+[view_id: 239, xml_id: andresperez.reserva_calendar_view, model: andresperez.reserva, parent_id: n/a]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 758, in parse
+    self._tags[rec.tag](rec, de, mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 663, in _tag_record
+    record = model.with_context(rec_context)._load_records([data], self.mode == 'update')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3852, in _load_records
+    data['record']._load_records_write(data['values'])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3790, in _load_records_write
+    self.write(values)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 444, in write
+    return super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3361, in write
+    fields[0].determine_inverse(records)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1141, in determine_inverse
+    getattr(records, self.inverse)()
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 275, in _inverse_arch
+    view.write(data)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 444, in write
+    return super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3335, in write
+    self._write(store_vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3471, in _write
+    self._validate_fields(vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1121, in _validate_fields
+    raise ValidationError("%s\n\n%s" % (_("Error while validating constraint"), tools.ustr(e)))
+odoo.exceptions.ValidationError: ('Error while validating constraint\n\nField `date_request` does not exist\n\nError context:\nView `reserva.calendar`\n[view_id: 239, xml_id: andresperez.reserva_calendar_view, model: andresperez.reserva, parent_id: n/a]', None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 656, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 314, in _handle_exception
+    raise pycompat.reraise(type(exception), exception, sys.exc_info()[2])
+  File "/usr/lib/python3/dist-packages/odoo/tools/pycompat.py", line 87, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 698, in dispatch
+    result = self._call_function(**self.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 346, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 97, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 339, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 941, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 519, in response_wrap
+    response = f(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 966, in call_button
+    action = self._call_kw(model, method, args, {})
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 954, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 759, in call_kw
+    return _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 746, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-67>", line 2, in button_immediate_upgrade
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 622, in button_immediate_upgrade
+    return self._button_immediate_function(type(self).button_upgrade)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 561, in _button_immediate_function
+    modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 86, in new
+    odoo.modules.load_modules(registry._db, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 417, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 313, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 222, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package, report=report)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 68, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind, report)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 802, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate, report)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 865, in convert_xml_import
+    obj.parse(doc.getroot(), mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 755, in parse
+    self.parse(rec, mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 764, in parse
+    exc_info[2]
+  File "/usr/lib/python3/dist-packages/odoo/tools/pycompat.py", line 86, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 758, in parse
+    self._tags[rec.tag](rec, de, mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 663, in _tag_record
+    record = model.with_context(rec_context)._load_records([data], self.mode == 'update')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3852, in _load_records
+    data['record']._load_records_write(data['values'])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3790, in _load_records_write
+    self.write(values)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 444, in write
+    return super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3361, in write
+    fields[0].determine_inverse(records)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1141, in determine_inverse
+    getattr(records, self.inverse)()
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 275, in _inverse_arch
+    view.write(data)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 444, in write
+    return super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3335, in write
+    self._write(store_vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3471, in _write
+    self._validate_fields(vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1121, in _validate_fields
+    raise ValidationError("%s\n\n%s" % (_("Error while validating constraint"), tools.ustr(e)))
+odoo.tools.convert.ParseError: "Error while validating constraint
+
+Field `date_request` does not exist
+
+Error context:
+View `reserva.calendar`
+[view_id: 239, xml_id: andresperez.reserva_calendar_view, model: andresperez.reserva, parent_id: n/a]
+None" while parsing /mnt/extra-addons/andresperez/views/reserva.xml:44, near
+<record model="ir.ui.view" id="reserva_calendar_view">
+            <field name="name">reserva.calendar</field>
+            <field name="model">andresperez.reserva</field>
+            <field name="arch" type="xml">
+
+                <calendar string="Service Request" date_start="date_request" date_stop="return_date" event_open_popup="true" mode="month" color="person_name" quick_add="False">
+
+                    <field name="fecha"/>
+                    <field name="hora_inicio"/>
+                    <field name="n_personas"/>
+                    <field name="telefono"/>
+
+                </calendar>
+            </field>
+        </record>
+2020-03-27 18:13:25,122 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:13:25,135 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2020-03-27 18:13:25,141 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:13:25,158 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.02s, 0 queries 
+2020-03-27 18:13:25,189 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 18:13:25,191 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:13:25] "POST /web/dataset/call_button HTTP/1.1" 200 - 1277 0.384 1.140
+2020-03-27 18:13:25,200 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 18:13:25] "GET /web/static/src/xml/dialog.xml HTTP/1.1" 200 - - - -
+2020-03-27 18:13:46,864 1 INFO ? odoo.service.server: Initiating shutdown 
+2020-03-27 18:13:46,865 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2020-03-27 18:13:49,016 1 INFO ? odoo: Odoo version 12.0-20200121 
+2020-03-27 18:13:49,016 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2020-03-27 18:13:49,017 1 INFO ? odoo: addons paths: ['/var/lib/odoo/addons/12.0', '/mnt/extra-addons', '/usr/lib/python3/dist-packages/odoo/addons'] 
+2020-03-27 18:13:49,017 1 INFO ? odoo: database: odoo@db:5432 
+2020-03-27 18:13:49,098 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2020-03-27 18:13:49,190 1 INFO ? odoo.service.server: Watching addons folder /var/lib/odoo/addons/12.0 
+2020-03-27 18:13:49,191 1 INFO ? odoo.service.server: Watching addons folder /mnt/extra-addons 
+2020-03-27 18:13:49,191 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/odoo/addons 
+2020-03-27 18:13:49,323 1 INFO ? odoo.service.server: AutoReload watcher running with watchdog 
+2020-03-27 18:13:49,326 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 2cd53e1198ba:8069 
+2020-03-27 18:13:50,565 1 INFO ? odoo.http: HTTP Configuring static files 
+2020-03-27 18:13:50,585 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:13:50,605 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries 
+2020-03-27 18:13:50,612 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:13:50,657 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.05s, 0 queries 
+2020-03-27 18:13:50,776 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 18:13:50,779 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 18:13:50,864 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:13:50,865 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:13:50,865 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:13:51,362 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:13:51,372 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:13:51,382 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2020-03-27 18:13:51,471 1 INFO andresperez odoo.modules.loading: updating modules list 
+2020-03-27 18:13:51,473 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.18.0.1 
+2020-03-27 18:13:51,938 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:13:51,992 1 INFO andresperez odoo.modules.registry: module andresperez: creating or updating database tables 
+2020-03-27 18:13:52,085 1 INFO andresperez odoo.modules.loading: loading andresperez/security/ir.model.access.csv 
+2020-03-27 18:13:52,105 1 INFO andresperez odoo.modules.loading: loading andresperez/views/cliente.xml 
+2020-03-27 18:13:52,107 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:13:52,145 1 INFO andresperez odoo.modules.loading: loading andresperez/views/alquiler.xml 
+2020-03-27 18:13:52,147 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:13:52,182 1 INFO andresperez odoo.modules.loading: loading andresperez/views/reserva.xml 
+2020-03-27 18:13:52,211 1 INFO andresperez odoo.addons.base.models.ir_ui_view: Field `person_name` does not exist
+
+Error context:
+View `reserva.calendar`
+[view_id: 239, xml_id: andresperez.reserva_calendar_view, model: andresperez.reserva, parent_id: n/a] 
+2020-03-27 18:13:52,213 1 WARNING andresperez odoo.modules.loading: Transient module states were reset 
+2020-03-27 18:13:52,214 1 ERROR andresperez odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1117, in _validate_fields
+    check(self)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 351, in _check_xml
+    self.postprocess_and_fields(view.model, view_doc, view.id)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 1111, in postprocess_and_fields
+    self.raise_view_error(message, view_id)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 548, in raise_view_error
+    raise ValueError(message)
+ValueError: Field `person_name` does not exist
+
+Error context:
+View `reserva.calendar`
+[view_id: 239, xml_id: andresperez.reserva_calendar_view, model: andresperez.reserva, parent_id: n/a]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 758, in parse
+    self._tags[rec.tag](rec, de, mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 663, in _tag_record
+    record = model.with_context(rec_context)._load_records([data], self.mode == 'update')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3852, in _load_records
+    data['record']._load_records_write(data['values'])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3790, in _load_records_write
+    self.write(values)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 444, in write
+    return super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3361, in write
+    fields[0].determine_inverse(records)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1141, in determine_inverse
+    getattr(records, self.inverse)()
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 275, in _inverse_arch
+    view.write(data)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 444, in write
+    return super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3335, in write
+    self._write(store_vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3471, in _write
+    self._validate_fields(vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1121, in _validate_fields
+    raise ValidationError("%s\n\n%s" % (_("Error while validating constraint"), tools.ustr(e)))
+odoo.exceptions.ValidationError: ('Error while validating constraint\n\nField `person_name` does not exist\n\nError context:\nView `reserva.calendar`\n[view_id: 239, xml_id: andresperez.reserva_calendar_view, model: andresperez.reserva, parent_id: n/a]', None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 86, in new
+    odoo.modules.load_modules(registry._db, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 417, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 313, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 222, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package, report=report)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 68, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind, report)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 802, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate, report)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 865, in convert_xml_import
+    obj.parse(doc.getroot(), mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 755, in parse
+    self.parse(rec, mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 764, in parse
+    exc_info[2]
+  File "/usr/lib/python3/dist-packages/odoo/tools/pycompat.py", line 86, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 758, in parse
+    self._tags[rec.tag](rec, de, mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 663, in _tag_record
+    record = model.with_context(rec_context)._load_records([data], self.mode == 'update')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3852, in _load_records
+    data['record']._load_records_write(data['values'])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3790, in _load_records_write
+    self.write(values)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 444, in write
+    return super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3361, in write
+    fields[0].determine_inverse(records)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1141, in determine_inverse
+    getattr(records, self.inverse)()
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 275, in _inverse_arch
+    view.write(data)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 444, in write
+    return super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3335, in write
+    self._write(store_vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3471, in _write
+    self._validate_fields(vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1121, in _validate_fields
+    raise ValidationError("%s\n\n%s" % (_("Error while validating constraint"), tools.ustr(e)))
+odoo.tools.convert.ParseError: "Error while validating constraint
+
+Field `person_name` does not exist
+
+Error context:
+View `reserva.calendar`
+[view_id: 239, xml_id: andresperez.reserva_calendar_view, model: andresperez.reserva, parent_id: n/a]
+None" while parsing /mnt/extra-addons/andresperez/views/reserva.xml:44, near
+<record model="ir.ui.view" id="reserva_calendar_view">
+            <field name="name">reserva.calendar</field>
+            <field name="model">andresperez.reserva</field>
+            <field name="arch" type="xml">
+
+                <calendar string="Service Request" date_start="fecha" date_stop="fecha" event_open_popup="true" mode="month" color="person_name" quick_add="False">
+
+                    <field name="fecha"/>
+                    <field name="hora_inicio"/>
+                    <field name="n_personas"/>
+                    <field name="telefono"/>
+
+                </calendar>
+            </field>
+        </record>
+2020-03-27 18:13:52,216 1 ERROR andresperez odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1117, in _validate_fields
+    check(self)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 351, in _check_xml
+    self.postprocess_and_fields(view.model, view_doc, view.id)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 1111, in postprocess_and_fields
+    self.raise_view_error(message, view_id)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 548, in raise_view_error
+    raise ValueError(message)
+ValueError: Field `person_name` does not exist
+
+Error context:
+View `reserva.calendar`
+[view_id: 239, xml_id: andresperez.reserva_calendar_view, model: andresperez.reserva, parent_id: n/a]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 758, in parse
+    self._tags[rec.tag](rec, de, mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 663, in _tag_record
+    record = model.with_context(rec_context)._load_records([data], self.mode == 'update')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3852, in _load_records
+    data['record']._load_records_write(data['values'])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3790, in _load_records_write
+    self.write(values)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 444, in write
+    return super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3361, in write
+    fields[0].determine_inverse(records)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1141, in determine_inverse
+    getattr(records, self.inverse)()
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 275, in _inverse_arch
+    view.write(data)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 444, in write
+    return super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3335, in write
+    self._write(store_vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3471, in _write
+    self._validate_fields(vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1121, in _validate_fields
+    raise ValidationError("%s\n\n%s" % (_("Error while validating constraint"), tools.ustr(e)))
+odoo.exceptions.ValidationError: ('Error while validating constraint\n\nField `person_name` does not exist\n\nError context:\nView `reserva.calendar`\n[view_id: 239, xml_id: andresperez.reserva_calendar_view, model: andresperez.reserva, parent_id: n/a]', None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 656, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 314, in _handle_exception
+    raise pycompat.reraise(type(exception), exception, sys.exc_info()[2])
+  File "/usr/lib/python3/dist-packages/odoo/tools/pycompat.py", line 87, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 698, in dispatch
+    result = self._call_function(**self.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 346, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 97, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 339, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 941, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 519, in response_wrap
+    response = f(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 966, in call_button
+    action = self._call_kw(model, method, args, {})
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 954, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 759, in call_kw
+    return _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 746, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-67>", line 2, in button_immediate_upgrade
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 622, in button_immediate_upgrade
+    return self._button_immediate_function(type(self).button_upgrade)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 561, in _button_immediate_function
+    modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 86, in new
+    odoo.modules.load_modules(registry._db, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 417, in load_modules
+    force, status, report, loaded_modules, update_module, models_to_check)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 313, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 222, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package, report=report)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 68, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind, report)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 802, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate, report)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 865, in convert_xml_import
+    obj.parse(doc.getroot(), mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 755, in parse
+    self.parse(rec, mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 764, in parse
+    exc_info[2]
+  File "/usr/lib/python3/dist-packages/odoo/tools/pycompat.py", line 86, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 758, in parse
+    self._tags[rec.tag](rec, de, mode=mode)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 663, in _tag_record
+    record = model.with_context(rec_context)._load_records([data], self.mode == 'update')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3852, in _load_records
+    data['record']._load_records_write(data['values'])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3790, in _load_records_write
+    self.write(values)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 444, in write
+    return super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3361, in write
+    fields[0].determine_inverse(records)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1141, in determine_inverse
+    getattr(records, self.inverse)()
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 275, in _inverse_arch
+    view.write(data)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 444, in write
+    return super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3335, in write
+    self._write(store_vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3471, in _write
+    self._validate_fields(vals)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1121, in _validate_fields
+    raise ValidationError("%s\n\n%s" % (_("Error while validating constraint"), tools.ustr(e)))
+odoo.tools.convert.ParseError: "Error while validating constraint
+
+Field `person_name` does not exist
+
+Error context:
+View `reserva.calendar`
+[view_id: 239, xml_id: andresperez.reserva_calendar_view, model: andresperez.reserva, parent_id: n/a]
+None" while parsing /mnt/extra-addons/andresperez/views/reserva.xml:44, near
+<record model="ir.ui.view" id="reserva_calendar_view">
+            <field name="name">reserva.calendar</field>
+            <field name="model">andresperez.reserva</field>
+            <field name="arch" type="xml">
+
+                <calendar string="Service Request" date_start="fecha" date_stop="fecha" event_open_popup="true" mode="month" color="person_name" quick_add="False">
+
+                    <field name="fecha"/>
+                    <field name="hora_inicio"/>
+                    <field name="n_personas"/>
+                    <field name="telefono"/>
+
+                </calendar>
+            </field>
+        </record>
+2020-03-27 18:13:52,222 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:13:52,232 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries 
+2020-03-27 18:13:52,236 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:13:52,252 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.02s, 0 queries 
+2020-03-27 18:13:52,284 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 18:13:52,285 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:13:52] "POST /web/dataset/call_button HTTP/1.1" 200 - 1298 0.416 1.300
+2020-03-27 18:14:38,041 1 INFO ? odoo.service.server: Initiating shutdown 
+2020-03-27 18:14:38,041 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2020-03-27 18:14:41,080 1 INFO ? odoo: Odoo version 12.0-20200121 
+2020-03-27 18:14:41,081 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2020-03-27 18:14:41,081 1 INFO ? odoo: addons paths: ['/var/lib/odoo/addons/12.0', '/mnt/extra-addons', '/usr/lib/python3/dist-packages/odoo/addons'] 
+2020-03-27 18:14:41,081 1 INFO ? odoo: database: odoo@db:5432 
+2020-03-27 18:14:41,167 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2020-03-27 18:14:41,252 1 INFO ? odoo.service.server: Watching addons folder /var/lib/odoo/addons/12.0 
+2020-03-27 18:14:41,252 1 INFO ? odoo.service.server: Watching addons folder /mnt/extra-addons 
+2020-03-27 18:14:41,252 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/odoo/addons 
+2020-03-27 18:14:41,380 1 INFO ? odoo.service.server: AutoReload watcher running with watchdog 
+2020-03-27 18:14:41,383 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 2cd53e1198ba:8069 
+2020-03-27 18:14:46,223 1 INFO ? odoo.http: HTTP Configuring static files 
+2020-03-27 18:14:46,238 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:14:46,259 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries 
+2020-03-27 18:14:46,267 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:14:46,318 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.05s, 0 queries 
+2020-03-27 18:14:46,441 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 18:14:46,444 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 18:14:46,530 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:14:46,531 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:14:46,531 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['andresperez'] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:14:47,015 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user andrespervil@gmail.com #2 via 172.18.0.1 
+2020-03-27 18:14:47,029 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:14:47,046 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries 
+2020-03-27 18:14:47,141 1 INFO andresperez odoo.modules.loading: updating modules list 
+2020-03-27 18:14:47,143 1 INFO andresperez odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.18.0.1 
+2020-03-27 18:14:47,619 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:14:47,672 1 INFO andresperez odoo.modules.registry: module andresperez: creating or updating database tables 
+2020-03-27 18:14:47,783 1 INFO andresperez odoo.modules.loading: loading andresperez/security/ir.model.access.csv 
+2020-03-27 18:14:47,804 1 INFO andresperez odoo.modules.loading: loading andresperez/views/cliente.xml 
+2020-03-27 18:14:47,806 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:14:47,844 1 INFO andresperez odoo.modules.loading: loading andresperez/views/alquiler.xml 
+2020-03-27 18:14:47,846 1 WARNING andresperez odoo.models: ir.actions.act_window.write() with unknown fields: view_model 
+2020-03-27 18:14:47,885 1 INFO andresperez odoo.modules.loading: loading andresperez/views/reserva.xml 
+2020-03-27 18:14:47,918 1 INFO andresperez odoo.modules.loading: loading andresperez/views/menu.xml 
+2020-03-27 18:14:47,937 1 INFO andresperez odoo.modules.loading: loading andresperez/views/views.xml 
+2020-03-27 18:14:47,938 1 INFO andresperez odoo.modules.loading: loading andresperez/views/templates.xml 
+2020-03-27 18:14:47,983 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.36s, 0 queries 
+2020-03-27 18:14:48,093 1 INFO andresperez odoo.modules.registry: verifying fields for every extended model 
+2020-03-27 18:14:48,218 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 18:14:48,224 1 INFO andresperez odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2020-03-27 18:14:48,227 1 INFO andresperez odoo.modules.registry: Registry changed, signaling through the database 
+2020-03-27 18:14:48,228 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:14:48] "POST /web/dataset/call_button HTTP/1.1" 200 - 1697 0.589 1.414
+2020-03-27 18:14:48,238 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 18:14:48,660 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:14:48] "GET /web HTTP/1.1" 200 - 328 0.094 0.329
+2020-03-27 18:14:48,811 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:14:48] "GET /web/webclient/qweb?mods=base,web,andresperez,base_import,web_settings_dashboard,iap,web_diagram,web_editor,web_kanban_gauge,web_tour HTTP/1.1" 200 - 1 0.000 0.032
+2020-03-27 18:14:48,830 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:14:48] "POST /web/dataset/call HTTP/1.1" 200 - 13 0.004 0.006
+2020-03-27 18:14:48,855 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:14:48] "POST /web/webclient/translations HTTP/1.1" 200 - 6 0.002 0.006
+2020-03-27 18:14:48,875 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:14:48] "POST /web/dataset/call_kw/ir.ui.menu/load_menus HTTP/1.1" 200 - 1 0.000 0.002
+2020-03-27 18:14:48,897 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 18:14:48] "GET /web/static/src/img/user_menu_avatar.png HTTP/1.1" 304 - - - -
+2020-03-27 18:14:48,908 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:14:48] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 - 2 0.001 0.004
+2020-03-27 18:14:48,928 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:14:48] "GET /web/image?model=res.users&field=image_small&id=2 HTTP/1.1" 200 - 27 0.014 0.015
+2020-03-27 18:14:48,944 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:14:48] "POST /web/action/load HTTP/1.1" 200 - 19 0.014 0.015
+2020-03-27 18:14:48,986 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:14:48] "POST /web/dataset/call_kw/andresperez.cliente/load_views HTTP/1.1" 200 - 31 0.015 0.017
+2020-03-27 18:14:49,051 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:14:49] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.002 0.003
+2020-03-27 18:14:50,687 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:14:50] "POST /web/action/load HTTP/1.1" 200 - 14 0.007 0.017
+2020-03-27 18:14:50,725 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:14:50] "POST /web/dataset/call_kw/andresperez.reserva/load_views HTTP/1.1" 200 - 26 0.010 0.019
+2020-03-27 18:14:50,754 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:14:50] "POST /web/dataset/call_kw/andresperez.reserva/check_access_rights HTTP/1.1" 200 - 2 0.002 0.004
+2020-03-27 18:14:50,755 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:14:50] "POST /web/dataset/call_kw/andresperez.reserva/check_access_rights HTTP/1.1" 200 - 2 0.002 0.004
+2020-03-27 18:14:50,764 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 18:14:50] "GET /web/static/lib/fullcalendar/js/fullcalendar.js HTTP/1.1" 200 - - - -
+2020-03-27 18:14:50,764 1 INFO ? werkzeug: 172.18.0.1 - - [27/Mar/2020 18:14:50] "GET /web/static/lib/fullcalendar/css/fullcalendar.css HTTP/1.1" 200 - - - -
+2020-03-27 18:14:50,779 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:14:50] "POST /web/dataset/call_kw/andresperez.reserva/search_read HTTP/1.1" 200 - 5 0.003 0.005
+2020-03-27 18:15:45,064 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:15:45] "POST /web/dataset/call_kw/andresperez.reserva/search_read HTTP/1.1" 200 - 3 0.001 0.003
+2020-03-27 18:15:46,033 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:15:46] "POST /web/dataset/call_kw/andresperez.reserva/search_read HTTP/1.1" 200 - 3 0.001 0.004
+2020-03-27 18:15:46,669 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:15:46] "POST /web/dataset/call_kw/andresperez.reserva/search_read HTTP/1.1" 200 - 3 0.001 0.003
+2020-03-27 18:15:47,669 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:15:47] "POST /web/dataset/call_kw/andresperez.reserva/search_read HTTP/1.1" 200 - 3 0.001 0.004
+2020-03-27 18:15:48,237 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:15:48] "POST /web/dataset/call_kw/andresperez.reserva/search_read HTTP/1.1" 200 - 3 0.001 0.005
+2020-03-27 18:15:49,021 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:15:49] "POST /web/dataset/call_kw/andresperez.reserva/load_views HTTP/1.1" 200 - 11 0.004 0.011
+2020-03-27 18:15:49,036 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:15:49] "POST /web/dataset/call_kw/andresperez.reserva/default_get HTTP/1.1" 200 - 2 0.001 0.003
+2020-03-27 18:15:52,763 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:15:52] "POST /web/dataset/call_kw/andresperez.reserva/load_views HTTP/1.1" 200 - 11 0.004 0.011
+2020-03-27 18:15:52,774 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:15:52] "POST /web/dataset/call_kw/andresperez.reserva/default_get HTTP/1.1" 200 - 1 0.000 0.002
+2020-03-27 18:16:01,391 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:16:01] "POST /web/dataset/call_kw/andresperez.reserva/search_read HTTP/1.1" 200 - 2 0.001 0.003
+2020-03-27 18:16:02,262 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:16:02] "POST /web/dataset/call_kw/andresperez.reserva/search_read HTTP/1.1" 200 - 2 0.001 0.003
+2020-03-27 18:16:03,160 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:16:03] "POST /web/dataset/call_kw/andresperez.reserva/search_read HTTP/1.1" 200 - 3 0.001 0.004
+2020-03-27 18:19:20,304 1 INFO ? odoo.service.server: Initiating shutdown 
+2020-03-27 18:19:20,305 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2020-03-27 18:19:23,354 1 INFO ? odoo: Odoo version 12.0-20200121 
+2020-03-27 18:19:23,355 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2020-03-27 18:19:23,355 1 INFO ? odoo: addons paths: ['/var/lib/odoo/addons/12.0', '/mnt/extra-addons', '/usr/lib/python3/dist-packages/odoo/addons'] 
+2020-03-27 18:19:23,355 1 INFO ? odoo: database: odoo@db:5432 
+2020-03-27 18:19:23,429 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2020-03-27 18:19:23,523 1 INFO ? odoo.service.server: Watching addons folder /var/lib/odoo/addons/12.0 
+2020-03-27 18:19:23,523 1 INFO ? odoo.service.server: Watching addons folder /mnt/extra-addons 
+2020-03-27 18:19:23,523 1 INFO ? odoo.service.server: Watching addons folder /usr/lib/python3/dist-packages/odoo/addons 
+2020-03-27 18:19:23,655 1 INFO ? odoo.service.server: AutoReload watcher running with watchdog 
+2020-03-27 18:19:23,658 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 2cd53e1198ba:8069 
+2020-03-27 18:19:24,460 1 INFO ? odoo.http: HTTP Configuring static files 
+2020-03-27 18:19:24,477 1 INFO andresperez odoo.modules.loading: loading 1 modules... 
+2020-03-27 18:19:24,493 1 INFO andresperez odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries 
+2020-03-27 18:19:24,498 1 INFO andresperez odoo.modules.loading: loading 10 modules... 
+2020-03-27 18:19:24,547 1 INFO andresperez odoo.modules.loading: 10 modules loaded in 0.05s, 0 queries 
+2020-03-27 18:19:24,686 1 INFO andresperez odoo.modules.loading: Modules loaded. 
+2020-03-27 18:19:24,689 1 INFO andresperez odoo.addons.base.models.ir_http: Generating routing map 
+2020-03-27 18:19:24,846 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:19:24] "POST /web/action/load HTTP/1.1" 200 - 64 0.038 0.345
+2020-03-27 18:19:24,965 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:19:24] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 99 0.038 0.065
+2020-03-27 18:19:25,038 1 INFO andresperez werkzeug: 172.18.0.1 - - [27/Mar/2020 18:19:25] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.003 0.007
