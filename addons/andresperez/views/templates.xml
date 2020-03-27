@@ -1,34 +1,34 @@
 <odoo>
     <data>
         <record model="andresperez.cliente" id="cliente_1">
-            <field name="nome"></field>
-            <field name="apelidos"></field>
-            <field name="dni"></field>
-            <field name="fecha_nacimiento"></field>
-            <field name="direccion"></field>
-            <field name="codigo_postal"></field>
-            <field name="telefono"></field>
-            <field name="telefono_alt"></field>
+            <field name="nome">Andrés</field>
+            <field name="apelidos">Pérez Villar</field>
+            <field name="dni">53863482N</field>
+            <field name="fecha_nacimiento">07/10/2000</field>
+            <field name="direccion">Baixada Praia de Menduiña n68</field>
+            <field name="codigo_postal">36946</field>
+            <field name="telefono">664804679</field>
+            <field name="telefono_alt">986329988</field>
         </record>
         <record model="andresperez.cliente" id="cliente_1">
-            <field name="nome"></field>
-            <field name="apelidos"></field>
-            <field name="dni"></field>
-            <field name="fecha_nacimiento"></field>
-            <field name="direccion"></field>
-            <field name="codigo_postal"></field>
-            <field name="telefono"></field>
-            <field name="telefono_alt"></field>
+            <field name="nome">Federico</field>
+            <field name="apelidos">Ruiz Sainz</field>
+            <field name="dni">23947921E</field>
+            <field name="fecha_nacimiento">12/03/1988</field>
+            <field name="direccion">Calle Vía Mayor n57</field>
+            <field name="codigo_postal">33003</field>
+            <field name="telefono">602131843</field>
+            <field name="telefono_alt">953456257</field>
         </record>
                 <record model="andresperez.cliente" id="cliente_1">
-            <field name="nome"></field>
-            <field name="apelidos"></field>
-            <field name="dni"></field>
-            <field name="fecha_nacimiento"></field>
-            <field name="direccion"></field>
-            <field name="codigo_postal"></field>
-            <field name="telefono"></field>
-            <field name="telefono_alt"></field>
+            <field name="nome">Diego </field>
+            <field name="apelidos">Cardenas Medina</field>
+            <field name="dni">23775708X</field>
+            <field name="fecha_nacimiento">07/07/1985</field>
+            <field name="direccion">Avenida de Pedralbes n86</field>
+            <field name="codigo_postal">06964</field>
+            <field name="telefono">750490848</field>
+            <field name="telefono_alt">952600294</field>
         </record>
     </data>
 </odoo>
