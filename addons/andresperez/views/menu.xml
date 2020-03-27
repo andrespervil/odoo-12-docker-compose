@@ -1,0 +1,8 @@
+<odoo>
+    <data>
+        <menuitem id="main_andresperez" name="Alquiler"/>
+        <menuitem id="cliente_menu" name="Cientes" parent="main_andresperez"  action="cliente_list_action"/>
+        <menuitem id="alquiler_menu" name="Alquileres" parent="main_andresperez"  action="alquiler_list_action"/>
+        <menuitem id="reserva_menu" name="Reservas" parent="main_andresperez"  action="reserva_list_action"/>
+    </data>
+</odoo>

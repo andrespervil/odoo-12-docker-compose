@@ -1,8 +1,8 @@
 <odoo>
     <data>
-        <record model="ir.actions.act_window" id="alquiler_list_action">
-            <field name="name">Xestion de Alquileres</field>
-            <field name="res_model">andresperez.alquiler</field>
+        <record model="ir.actions.act_window" id="reserva_list_action">
+            <field name="name">Xestion de Reserva</field>
+            <field name="res_model">andresperez.reserva</field>
             <field name="view_type">form</field>
             <field name="view_model">tree,form</field>
             <field name="help" type="html">
@@ -10,30 +10,30 @@
             </field>
         </record>
 
-        <record model="ir.ui.view" id="alquiler_form_view">
-            <field name="name">alquiler.form</field>
-            <field name="model">andresperez.alquiler</field>
+        <record model="ir.ui.view" id="reserva_form_view">
+            <field name="name">reserva.form</field>
+            <field name="model">andresperez.reserva</field>
             <field name="arch" type="xml">
-                <form string="Formulario Alquiler">
+                <form string="Formulario reserva">
                     <sheet>
-                        <h1>Nuevo Alquiler</h1>
+                        <h1>Nuevo reserva</h1>
                         <group>
                             <group>
                                 <field name="fecha"/>
-                                <field name="cliente"/>
                             </group>
                             <group>
-                                <field name="hora_inicio"/>
+                                <field name="telefono"/>
                             </group>
                         </group>
                         <group>
                             <group>
+                                <field name="hora_inicio" widget="float_time"/>
                                 <field name="n_k1"/>
-                                <field name="chalecos"/>
+                                <field name="n_personas"/>
                             </group>
                             <group>
+                                <field name="hora_fin" widget="float_time"/>
                                 <field name="n_k2"/>
-                                <field name="bidones"/>
                             </group>
                         </group>
                     </sheet>
@@ -41,59 +41,20 @@
             </field>
         </record>
 
-        <record model="ir.ui.view" id="alquiler_tree_view">
-            <field name="name">alquiler.tree</field>
-            <field name="model">andresperez.alquiler</field>
+        <record model="ir.ui.view" id="reserva_tree_view">
+            <field name="name">reserva.tree</field>
+            <field name="model">andresperez.reserva</field>
             <field name="arch" type="xml">
-                <tree string="alquiler Tree">
+                <tree string="reserva Tree">
                     <field name="fecha"/>
                     <field name="hora_inicio"/>
                     <field name="hora_fin"/>
-                    <field name="cliente"/>
                     <field name="n_k1"/>
                     <field name="n_k2"/>
-                    <field name="chalecos"/>
-                    <field name="bidones"/>
-                    <!--<field name="total"/>-->
-                    <field name="finalizado"/>
+                    <field name="n_personas"/>
+                    <field name="telefono"/>
                 </tree>
             </field>
         </record>
-
-        <record model="ir.filters" id="alquiler_sin_fin">
-            <field name="name">Grupo Alquileres sin Finalizar</field>
-            <field name="model_id">andresperez.alquiler</field>
-            <field name="context">{'group_by': ['finalizado']}</field>
-            <field name="is_default">false</field>
-            <field name="active">true</field>
-            <field name="sort">[]</field>
-            <field name="domain">[]</field>
-            <field name="user_id"></field>
-            <field name="action_id"
-                   eval="ref('andresperez.alquiler_list_action')"/>
-        </record>
-
-        <record model="ir.filters" id="sin_fin">
-            <field name="name">Sin Finalizar</field>
-            <field name="model_id">andresperez.alquiler</field>
-            <field name="context">{}</field>
-            <field name="is_default">true</field>
-            <field name="active">true</field>
-            <field name="sort">[]</field>
-            <field name="domain">[('finalizado', '=', False),]</field>
-            <field name="user_id"></field>
-            <field name="action_id"
-                   eval="ref('andresperez.alquiler_list_action')"/>
-        </record>
-
-
-        <!--<record id="accion_fin_alquiler" model="ir.actions.server">
-            <field name="name">Finalizar Alquiler</field>
-            <field name="model_id" ref="andresperez.model_andresperez_alquiler"/>
-            <field name="state">code</field>
-            <field name="code">
-            </field>
-        </record>-->
-
     </data>
 </odoo>

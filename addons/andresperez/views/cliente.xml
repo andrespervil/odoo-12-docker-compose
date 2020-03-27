@@ -1,0 +1,56 @@
+<odoo>
+    <data>
+        <record model="ir.actions.act_window" id="cliente_list_action">
+            <field name="name">Xestion de Clientes</field>
+            <field name="res_model">andresperez.cliente</field>
+            <field name="view_type">form</field>
+            <field name="view_model">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">Tes que crear o primeiro rexistro</p>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="cliente_form_view">
+            <field name="name">cliente.form</field>
+            <field name="model">andresperez.cliente</field>
+            <field name="arch" type="xml">
+                <form string="Formulario Cliente">
+                    <sheet>
+                        <h1>Nuevo Cliente</h1>
+                        <group>
+                            <group>
+                                <field name="nome"/>
+                                <field name="dni"/>
+                                <field name="direccion"/>
+                                <field name="telefono"/>
+                            </group>
+                            <group>
+                                <field name="apelidos"/>
+                                <field name="fecha_nacimiento"/>
+                                <field name="codigo_postal"/>
+                                <field name="telefono_alt"/>
+                            </group>
+
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="cliente_tree_view">
+            <field name="name">cliente.tree</field>
+            <field name="model">andresperez.cliente</field>
+            <field name="arch" type="xml">
+                <!-- <tree string="sesion Tree" editable ="top" decoration-success="autorizado == True" decoration-danger="autorizado == False">-->
+                <!--                Para editar os campos directamente na vista tree-->
+                <tree string="cliente Tree">
+                    <field name="nome"/>
+                    <field name="apelidos"/>
+                    <field name="dni"/>
+                    <field name="telefono"/>
+                    <field name="telefono_alt"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>
