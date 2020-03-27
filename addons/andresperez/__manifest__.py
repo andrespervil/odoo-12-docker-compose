@@ -3,20 +3,16 @@
     'name': "andresperez",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Aluger de Kayaks""",
 
     'description': """
-        Long description of module's purpose
+        Modulo para a xestion dun Aluger de Kayaks, con clientes, reservas, alugeres, e contas
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Andrés Pérez Villar",
+    'website': "https://github.com/andrespervil/odoo-12-docker-compose/tree/master/",
 
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/12.0/odoo/addons/base/data/ir_module_category_data.xml
-    # for the full list
-    'category': 'Uncategorized',
+    'category': 'Odoo Module',
     'version': '0.1',
 
     # any module necessary for this one to work correctly
@@ -24,7 +20,11 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
+        'views/cliente.xml',
+        'views/alquiler.xml',
+        'views/menu.xml',
+        'views/reserva.xml',
         'views/views.xml',
         'views/templates.xml',
     ],
@@ -32,4 +32,7 @@
     'demo': [
         'demo/demo.xml',
     ],
+    'license': 'AGPL-3',
+    'installable': True,
+    'application': True,
 }

@@ -1,2 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_andresperez_andresperez,andresperez.andresperez,model_andresperez_andresperez,,1,0,0,0
+andresperez_alquiler,andresperez.alquiler,model_andresperez_alquiler,base.group_user,1,1,1,1
+andresperez_cliente,andresperez.cliente,model_andresperez_cliente,base.group_user,1,1,1,1
+andresperez_reserva,andresperez.reserva,model_andresperez_reserva,base.group_user,1,1,1,1
